@@ -1,44 +1,67 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import { lazy, Suspense } from 'react'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
-// Pages
-import HomePage from './pages/HomePage'
-import ServicePage from './pages/ServicePage'
-import BlogPage from './pages/BlogPage'
-import BlogPostPage from './pages/BlogPostPage'
+// Lazy load pages for code splitting
+const HomePage = lazy(() => import('./pages/HomePage'))
+const ServicePage = lazy(() => import('./pages/ServicePage'))
+const BlogPage = lazy(() => import('./pages/BlogPage'))
+const BlogPostPage = lazy(() => import('./pages/BlogPostPage'))
 
 // Data - now loaded from virtual module (markdown files)
 import { services } from './data/services'
 import { blogPosts } from 'virtual:blog-posts'
+
+// Loading fallback component
+const PageLoader = () => (
+  <div style={{
+    display: 'flex',
+    justifyContent: 'center',
+    alignItems: 'center',
+    minHeight: '50vh',
+    background: 'var(--bg-primary)'
+  }}>
+    <div style={{
+      width: '40px',
+      height: '40px',
+      border: '3px solid var(--border-color)',
+      borderTop: '3px solid var(--primary)',
+      borderRadius: '50%',
+      animation: 'spin 1s linear infinite'
+    }} />
+  </div>
+)
 
 function App() {
   return (
     <Router>
       <Navbar />
       <main>
-        <Routes>
-          <Route path="/" element={<HomePage />} />
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            <Route path="/" element={<HomePage />} />
 
-          {/* Service Pages */}
-          {services.map((service) => (
-            <Route
-              key={service.slug}
-              path={`/services/${service.slug}`}
-              element={<ServicePage service={service} />}
-            />
-          ))}
+            {/* Service Pages */}
+            {services.map((service) => (
+              <Route
+                key={service.slug}
+                path={`/services/${service.slug}`}
+                element={<ServicePage service={service} />}
+              />
+            ))}
 
-          {/* Blog Pages */}
-          <Route path="/blog" element={<BlogPage posts={blogPosts} />} />
-          {blogPosts.map((post) => (
-            <Route
-              key={post.slug}
-              path={`/blog/${post.slug}`}
-              element={<BlogPostPage post={post} />}
-            />
-          ))}
-        </Routes>
+            {/* Blog Pages */}
+            <Route path="/blog" element={<BlogPage posts={blogPosts} />} />
+            {blogPosts.map((post) => (
+              <Route
+                key={post.slug}
+                path={`/blog/${post.slug}`}
+                element={<BlogPostPage post={post} />}
+              />
+            ))}
+          </Routes>
+        </Suspense>
       </main>
       <Footer />
     </Router>
