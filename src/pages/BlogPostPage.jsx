@@ -104,7 +104,7 @@ function BlogPostPage({ post }) {
                         <div className="content-wrapper">
                             <div
                                 className="prose"
-                                dangerouslySetInnerHTML={{ __html: formatContent(post.content) }}
+                                dangerouslySetInnerHTML={{ __html: post.content }}
                             />
 
                             <aside className="post-sidebar">

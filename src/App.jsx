@@ -8,9 +8,9 @@ import ServicePage from './pages/ServicePage'
 import BlogPage from './pages/BlogPage'
 import BlogPostPage from './pages/BlogPostPage'
 
-// Service Data
+// Data - now loaded from virtual module (markdown files)
 import { services } from './data/services'
-import { blogPosts } from './data/blogPosts'
+import { blogPosts } from 'virtual:blog-posts'
 
 function App() {
   return (
