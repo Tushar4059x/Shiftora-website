@@ -84,6 +84,25 @@
     text-align: center;
 }
 
+.service-card {
+    text-decoration: none;
+}
+
+.service-link {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-lg);
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+    color: var(--accent-purple);
+    transition: var(--transition-base);
+}
+
+.service-card:hover .service-link {
+    gap: var(--spacing-md);
+}
+
 .services-cta p {
     font-size: var(--font-size-lg);
     color: var(--text-secondary);

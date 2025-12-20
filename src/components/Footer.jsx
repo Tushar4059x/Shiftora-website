@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import './Footer.css'
 
 function Footer() {
@@ -5,25 +6,24 @@ function Footer() {
 
     const footerLinks = {
         services: [
-            { label: 'Data Entry Automation', href: '#services' },
-            { label: 'Customer Support AI', href: '#services' },
-            { label: 'Workflow Automation', href: '#services' },
-            { label: 'Reporting & Analytics', href: '#services' },
-            { label: 'Custom Solutions', href: '#cta' }
+            { label: 'Data Entry Automation', href: '/services/data-entry-automation', isRoute: true },
+            { label: 'Customer Support AI', href: '/services/customer-support-ai', isRoute: true },
+            { label: 'Workflow Automation', href: '/services/workflow-automation', isRoute: true },
+            { label: 'Reporting & Analytics', href: '/services/reporting-analytics-automation', isRoute: true },
+            { label: 'Email Automation', href: '/services/email-communication-automation', isRoute: true }
         ],
         company: [
-            { label: 'About Us', href: '#' },
-            { label: 'Case Studies', href: '#results' },
-            { label: 'Process', href: '#process' },
-            { label: 'Pricing', href: '#pricing' },
-            { label: 'Contact', href: '#cta' }
+            { label: 'About Us', href: '/#hero' },
+            { label: 'Case Studies', href: '/#results' },
+            { label: 'Process', href: '/#process' },
+            { label: 'Pricing', href: '/#pricing' },
+            { label: 'Contact', href: '/#cta' }
         ],
         resources: [
-            { label: 'Blog', href: '#' },
-            { label: 'Documentation', href: '#' },
-            { label: 'API Reference', href: '#' },
-            { label: 'Help Center', href: '#' },
-            { label: 'Status Page', href: '#' }
+            { label: 'Blog', href: '/blog', isRoute: true },
+            { label: 'What is AI Automation?', href: '/blog/what-is-ai-automation', isRoute: true },
+            { label: 'Signs You Need Automation', href: '/blog/5-signs-your-business-needs-automation', isRoute: true },
+            { label: 'ROI of AI Automation', href: '/blog/roi-of-ai-automation', isRoute: true }
         ]
     }
 
@@ -60,19 +60,34 @@ function Footer() {
         }
     ]
 
+    const renderLink = (link, index) => {
+        if (link.isRoute) {
+            return (
+                <li key={index}>
+                    <Link to={link.href} className="footer-link">{link.label}</Link>
+                </li>
+            )
+        }
+        return (
+            <li key={index}>
+                <a href={link.href} className="footer-link">{link.label}</a>
+            </li>
+        )
+    }
+
     return (
         <footer className="footer">
             <div className="container">
                 <div className="footer-top">
                     <div className="footer-brand">
-                        <a href="#" className="footer-logo">
+                        <Link to="/" className="footer-logo">
                             <div className="logo-icon">
                                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                     <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                                 </svg>
                             </div>
                             <span className="logo-text">Scaletrail<span className="logo-highlight">AI</span></span>
-                        </a>
+                        </Link>
                         <p className="footer-tagline">
                             Empowering businesses with intelligent automation solutions.
                             Save time, reduce costs, and scale effortlessly.
@@ -97,11 +112,7 @@ function Footer() {
                         <div className="footer-column">
                             <h4 className="footer-heading">Services</h4>
                             <ul className="footer-list">
-                                {footerLinks.services.map((link, index) => (
-                                    <li key={index}>
-                                        <a href={link.href} className="footer-link">{link.label}</a>
-                                    </li>
-                                ))}
+                                {footerLinks.services.map(renderLink)}
                             </ul>
                         </div>
 
@@ -119,11 +130,7 @@ function Footer() {
                         <div className="footer-column">
                             <h4 className="footer-heading">Resources</h4>
                             <ul className="footer-list">
-                                {footerLinks.resources.map((link, index) => (
-                                    <li key={index}>
-                                        <a href={link.href} className="footer-link">{link.label}</a>
-                                    </li>
-                                ))}
+                                {footerLinks.resources.map(renderLink)}
                             </ul>
                         </div>
                     </div>

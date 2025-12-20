@@ -1,32 +1,47 @@
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
-import Hero from './components/Hero'
-import Problems from './components/Problems'
-import Solution from './components/Solution'
-import Services from './components/Services'
-import Process from './components/Process'
-import Results from './components/Results'
-import Testimonials from './components/Testimonials'
-import Pricing from './components/Pricing'
-import CTA from './components/CTA'
 import Footer from './components/Footer'
+
+// Pages
+import HomePage from './pages/HomePage'
+import ServicePage from './pages/ServicePage'
+import BlogPage from './pages/BlogPage'
+import BlogPostPage from './pages/BlogPostPage'
+
+// Service Data
+import { services } from './data/services'
+import { blogPosts } from './data/blogPosts'
 
 function App() {
   return (
-    <>
+    <Router>
       <Navbar />
       <main>
-        <Hero />
-        <Problems />
-        <Solution />
-        <Services />
-        <Process />
-        <Results />
-        <Testimonials />
-        <Pricing />
-        <CTA />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+
+          {/* Service Pages */}
+          {services.map((service) => (
+            <Route
+              key={service.slug}
+              path={`/services/${service.slug}`}
+              element={<ServicePage service={service} />}
+            />
+          ))}
+
+          {/* Blog Pages */}
+          <Route path="/blog" element={<BlogPage posts={blogPosts} />} />
+          {blogPosts.map((post) => (
+            <Route
+              key={post.slug}
+              path={`/blog/${post.slug}`}
+              element={<BlogPostPage post={post} />}
+            />
+          ))}
+        </Routes>
       </main>
       <Footer />
-    </>
+    </Router>
   )
 }
 

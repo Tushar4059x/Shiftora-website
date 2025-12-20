@@ -1,0 +1,224 @@
+.blog-post-hero {
+    padding-top: 120px;
+    padding-bottom: var(--spacing-4xl);
+    position: relative;
+}
+
+.blog-post-hero .container {
+    position: relative;
+    z-index: 1;
+}
+
+.post-header {
+    max-width: 800px;
+}
+
+.post-header .post-category {
+    margin-bottom: var(--spacing-lg);
+}
+
+.post-header .post-title {
+    font-size: var(--font-size-5xl);
+    line-height: 1.2;
+    margin-bottom: var(--spacing-xl);
+}
+
+.post-header .post-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    font-size: var(--font-size-base);
+    color: var(--text-tertiary);
+}
+
+.post-author {
+    color: var(--text-secondary);
+    font-weight: 500;
+}
+
+/* Content */
+.blog-post-content {
+    padding: var(--spacing-4xl) 0;
+    background: var(--bg-secondary);
+}
+
+.content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 320px;
+    gap: var(--spacing-4xl);
+    align-items: start;
+}
+
+/* Prose Styles */
+.prose {
+    max-width: 100%;
+}
+
+.prose h2 {
+    font-size: var(--font-size-2xl);
+    margin-top: var(--spacing-3xl);
+    margin-bottom: var(--spacing-lg);
+    color: var(--text-primary);
+}
+
+.prose h3 {
+    font-size: var(--font-size-xl);
+    margin-top: var(--spacing-2xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--text-primary);
+}
+
+.prose p {
+    font-size: var(--font-size-lg);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-lg);
+    color: var(--text-secondary);
+}
+
+.prose strong {
+    color: var(--text-primary);
+}
+
+.prose a {
+    color: var(--accent-purple-light);
+    text-decoration: underline;
+}
+
+.prose a:hover {
+    color: var(--accent-purple);
+}
+
+.prose li {
+    font-size: var(--font-size-lg);
+    line-height: 1.8;
+    margin-bottom: var(--spacing-sm);
+    color: var(--text-secondary);
+    margin-left: var(--spacing-xl);
+}
+
+.prose table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: var(--spacing-xl) 0;
+}
+
+.prose td {
+    padding: var(--spacing-md);
+    border: 1px solid var(--border-color-light);
+    font-size: var(--font-size-base);
+}
+
+.prose tr:first-child td {
+    background: var(--bg-tertiary);
+    font-weight: 600;
+    color: var(--text-primary);
+}
+
+/* Sidebar */
+.post-sidebar {
+    position: sticky;
+    top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xl);
+}
+
+.sidebar-card {
+    padding: var(--spacing-xl);
+}
+
+.sidebar-card h4 {
+    font-size: var(--font-size-lg);
+    margin-bottom: var(--spacing-md);
+    color: var(--text-primary);
+}
+
+.sidebar-card p {
+    font-size: var(--font-size-sm);
+    color: var(--text-tertiary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.sidebar-card .btn {
+    width: 100%;
+}
+
+.share-links {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.share-link {
+    padding: var(--spacing-sm) var(--spacing-lg);
+    background: var(--bg-tertiary);
+    border: 1px solid var(--border-color-light);
+    border-radius: var(--radius-md);
+    font-size: var(--font-size-sm);
+    color: var(--text-secondary);
+    transition: var(--transition-base);
+}
+
+.share-link:hover {
+    background: var(--accent-purple);
+    border-color: var(--accent-purple);
+    color: white;
+}
+
+/* Related CTA */
+.related-cta {
+    background: var(--bg-primary);
+}
+
+.related-cta-content {
+    text-align: center;
+    padding: var(--spacing-4xl);
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.related-cta-content h2 {
+    font-size: var(--font-size-2xl);
+    margin-bottom: var(--spacing-md);
+}
+
+.related-cta-content p {
+    margin-bottom: var(--spacing-xl);
+}
+
+.subscribe-form {
+    display: flex;
+    gap: var(--spacing-md);
+}
+
+.subscribe-form .input {
+    flex: 1;
+}
+
+@media (max-width: 1024px) {
+    .content-wrapper {
+        grid-template-columns: 1fr;
+    }
+
+    .post-sidebar {
+        position: static;
+        flex-direction: row;
+    }
+
+    .sidebar-card {
+        flex: 1;
+    }
+}
+
+@media (max-width: 640px) {
+    .post-header .post-title {
+        font-size: var(--font-size-3xl);
+    }
+
+    .post-sidebar {
+        flex-direction: column;
+    }
+
+    .subscribe-form {
+        flex-direction: column;
+    }
+}
