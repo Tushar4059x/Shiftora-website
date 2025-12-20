@@ -54,7 +54,7 @@
     <priority>0.8</priority>
   </url>
   
-  <!-- Blog Articles -->
+  <!-- Original Blog Articles (8) -->
   <url>
     <loc>https://scaletrailai.com/blog/what-is-ai-automation</loc>
     <lastmod>2024-12-15</lastmod>
@@ -103,6 +103,8 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  
+  <!-- First SEO Expansion (5) -->
   <url>
     <loc>https://scaletrailai.com/blog/10-business-tasks-you-should-automate-today</loc>
     <lastmod>2024-12-19</lastmod>
@@ -130,6 +132,86 @@
   <url>
     <loc>https://scaletrailai.com/blog/email-automation-ultimate-guide</loc>
     <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <!-- Second SEO Expansion - Double Content (13) -->
+  <url>
+    <loc>https://scaletrailai.com/blog/zapier-vs-make-vs-n8n-comparison</loc>
+    <lastmod>2024-12-19</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/automate-lead-generation-complete-guide</loc>
+    <lastmod>2024-12-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/data-entry-automation-complete-guide</loc>
+    <lastmod>2024-12-17</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/crm-automation-10x-sales-productivity</loc>
+    <lastmod>2024-12-16</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/automate-invoicing-get-paid-faster</loc>
+    <lastmod>2024-12-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/ecommerce-automation-complete-guide</loc>
+    <lastmod>2024-12-14</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/hr-automation-streamline-hiring-onboarding</loc>
+    <lastmod>2024-12-13</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/social-media-automation-guide</loc>
+    <lastmod>2024-12-12</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/reporting-automation-never-manual-reports</loc>
+    <lastmod>2024-12-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/business-process-automation-strategic-guide</loc>
+    <lastmod>2024-12-10</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/customer-onboarding-automation-guide</loc>
+    <lastmod>2024-12-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/document-automation-contracts-proposals</loc>
+    <lastmod>2024-12-08</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://scaletrailai.com/blog/ai-automation-trends-2025</loc>
+    <lastmod>2024-12-20</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
