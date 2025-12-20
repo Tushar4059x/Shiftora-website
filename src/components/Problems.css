@@ -1,0 +1,112 @@
+.problems {
+    background: var(--bg-secondary);
+    position: relative;
+}
+
+.problems::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 1px;
+    background: linear-gradient(90deg, transparent, var(--border-color), transparent);
+}
+
+.problems-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-xl);
+}
+
+.problem-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.problem-card::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 4px;
+    height: 100%;
+    background: linear-gradient(180deg, var(--accent-orange), var(--accent-pink));
+    opacity: 0;
+    transition: var(--transition-smooth);
+}
+
+.problem-card:hover::before {
+    opacity: 1;
+}
+
+.problem-icon {
+    width: 56px;
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgba(245, 158, 11, 0.1);
+    border: 1px solid rgba(245, 158, 11, 0.2);
+    border-radius: var(--radius-lg);
+    color: var(--accent-orange);
+    margin-bottom: var(--spacing-lg);
+}
+
+.problem-title {
+    font-size: var(--font-size-xl);
+    margin-bottom: var(--spacing-md);
+    color: var(--text-primary);
+}
+
+.problem-description {
+    font-size: var(--font-size-base);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-lg);
+    line-height: 1.7;
+}
+
+.problem-stat {
+    display: flex;
+    align-items: baseline;
+    gap: var(--spacing-sm);
+    padding-top: var(--spacing-lg);
+    border-top: 1px solid var(--border-color-light);
+}
+
+.problem-stat-value {
+    font-size: var(--font-size-2xl);
+    font-weight: 800;
+    color: var(--accent-orange);
+}
+
+.problem-stat-label {
+    font-size: var(--font-size-sm);
+    color: var(--text-muted);
+}
+
+.problems-cta {
+    text-align: center;
+    margin-top: var(--spacing-4xl);
+}
+
+.problems-cta-text {
+    font-size: var(--font-size-xl);
+    color: var(--text-secondary);
+    margin-bottom: var(--spacing-lg);
+}
+
+.problems-cta-text strong {
+    color: var(--text-primary);
+}
+
+.problems-cta-arrow {
+    color: var(--accent-purple);
+    animation: float 2s ease-in-out infinite;
+}
+
+@media (max-width: 768px) {
+    .problems-grid {
+        grid-template-columns: 1fr;
+    }
+}
