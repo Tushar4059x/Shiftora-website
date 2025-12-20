@@ -129,3 +129,11 @@ ScaletrailAI helps businesses with digital transformation:
 - Change support
 
 [Start Your Transformation →](/#cta)
+
+---
+
+## Related Articles
+
+- [Business Process Automation](/blog/business-process-automation-strategic-guide) - Core transformation component.
+- [Automation Strategy](/blog/automation-strategy-roadmap-success) - Build your transformation roadmap.
+- [AI Automation Trends 2025](/blog/ai-automation-trends-2025) - The future of transformation.

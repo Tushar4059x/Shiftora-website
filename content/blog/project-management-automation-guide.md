@@ -118,3 +118,11 @@ ScaletrailAI helps teams automate project management:
 - Integration setup
 
 [Get Your Free PM Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [Workflow Automation Guide 2024](/blog/complete-guide-to-workflow-automation-2024) - Workflows beyond PM.
+- [Reporting Automation](/blog/reporting-automation-never-manual-reports) - Automate status reports.
+- [Automation for Agencies](/blog/automation-for-agencies-deliver-more) - PM automation for agencies.

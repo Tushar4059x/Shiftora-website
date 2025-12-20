@@ -216,3 +216,11 @@ We'll:
 - Train your team to maintain it
 
 [Get Your Free Automation Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [Automate Repetitive Tasks](/blog/automate-repetitive-tasks-practical-guide) - Find and eliminate more time-wasters.
+- [Email Automation Guide](/blog/email-automation-ultimate-guide) - Deep dive on email automation.
+- [Workflow Automation Guide 2024](/blog/complete-guide-to-workflow-automation-2024) - Build end-to-end workflows.

@@ -190,3 +190,11 @@ ScaletrailAI helps businesses automate document creation:
 - eSignature integration
 
 [Get Your Free Document Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [Invoicing Automation](/blog/automate-invoicing-get-paid-faster) - Automate financial documents.
+- [Sales Automation](/blog/sales-automation-close-more-deals) - Proposals in the sales flow.
+- [CRM Automation](/blog/crm-automation-10x-sales-productivity) - Trigger documents from CRM.

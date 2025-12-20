@@ -212,3 +212,11 @@ ScaletrailAI helps HR teams automate the busywork:
 - Workflow automation
 
 [Get Your Free HR Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [Customer Onboarding Automation](/blog/customer-onboarding-automation-guide) - Similar principles for clients.
+- [Document Automation](/blog/document-automation-contracts-proposals) - Automate HR documents.
+- [Business Process Automation](/blog/business-process-automation-strategic-guide) - HR in the broader BPA context.

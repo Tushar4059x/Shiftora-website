@@ -209,3 +209,11 @@ ScaletrailAI helps businesses set up social media automation that actually works
 - Integration with marketing stack
 
 [Get Your Free Social Media Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [Marketing Automation for Beginners](/blog/marketing-automation-beginners-guide) - Social in broader marketing context.
+- [10 Business Tasks to Automate](/blog/10-business-tasks-you-should-automate-today) - Social is just one of many.
+- [Best AI Tools for Business 2024](/blog/best-ai-tools-for-business-2024) - Find the right social tools.

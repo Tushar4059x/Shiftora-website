@@ -218,3 +218,11 @@ ScaletrailAI helps businesses automate their entire invoicing workflow:
 - Payment reconciliation
 
 [Get Your Free Invoicing Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [Accounting Automation](/blog/accounting-automation-bookkeeping-autopilot) - Complete finance automation.
+- [Cut Operational Costs by 50%](/blog/cut-operational-costs-50-percent-with-ai) - Invoice automation saves money.
+- [Document Automation](/blog/document-automation-contracts-proposals) - Automate more documents.

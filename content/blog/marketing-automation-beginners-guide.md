@@ -119,3 +119,11 @@ ScaletrailAI helps businesses implement marketing automation:
 - Optimization
 
 [Get Your Free Marketing Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [Email Automation Guide](/blog/email-automation-ultimate-guide) - Deep dive on email marketing.
+- [Lead Generation Automation](/blog/automate-lead-generation-complete-guide) - Automate lead capture.
+- [Social Media Automation](/blog/social-media-automation-guide) - Automate social marketing.

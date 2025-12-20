@@ -120,3 +120,11 @@ ScaletrailAI helps businesses automate their accounting:
 - Training
 
 [Get Your Free Accounting Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [Invoicing Automation](/blog/automate-invoicing-get-paid-faster) - Automate AR.
+- [Data Entry Automation](/blog/data-entry-automation-complete-guide) - Eliminate manual entry.
+- [Reporting Automation](/blog/reporting-automation-never-manual-reports) - Automate financial reports.

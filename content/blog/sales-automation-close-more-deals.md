@@ -124,3 +124,11 @@ ScaletrailAI builds sales automation that actually works:
 - Team training
 
 [Get Your Free Sales Audit →](/#cta)
+
+---
+
+## Related Articles
+
+- [CRM Automation](/blog/crm-automation-10x-sales-productivity) - CRM is the heart of sales automation.
+- [Lead Generation Automation](/blog/automate-lead-generation-complete-guide) - Feed your sales pipeline.
+- [Document Automation](/blog/document-automation-contracts-proposals) - Automate proposals and contracts.
