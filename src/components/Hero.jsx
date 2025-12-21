@@ -13,24 +13,25 @@ function Hero() {
 
             <div className="container hero-container">
                 <div className="hero-content">
-                    <div className="hero-badge animate-fadeInUp">
+                    <div className="hero-badge">
                         <span className="badge-dot"></span>
                         AI-Powered Business Automation
                     </div>
 
-                    <h1 className="hero-title animate-fadeInUp delay-100">
+                    {/* Removed animation classes that cause CLS */}
+                    <h1 className="hero-title">
                         Stop Wasting Time on
                         <br />
                         <span className="gradient-text">Repetitive Tasks</span>
                     </h1>
 
-                    <p className="hero-subtitle animate-fadeInUp delay-200">
+                    <p className="hero-subtitle">
                         We help businesses automate their workflows with intelligent AI solutions.
                         Reduce manual labor by 70%, cut costs, and let your team focus on what matters—
                         <strong>growing your business.</strong>
                     </p>
 
-                    <div className="hero-cta animate-fadeInUp delay-300">
+                    <div className="hero-cta">
                         <a href="#cta" className="btn btn-primary btn-large">
                             Get Your Free Automation Audit
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -42,7 +43,7 @@ function Hero() {
                         </a>
                     </div>
 
-                    <div className="hero-stats animate-fadeInUp delay-400">
+                    <div className="hero-stats">
                         <div className="hero-stat">
                             <span className="hero-stat-value">70%</span>
                             <span className="hero-stat-label">Time Saved</span>
@@ -60,7 +61,7 @@ function Hero() {
                     </div>
                 </div>
 
-                <div className="hero-visual animate-fadeInUp delay-300">
+                <div className="hero-visual">
                     <div className="hero-visual-card">
                         <div className="visual-header">
                             <div className="visual-dots">
