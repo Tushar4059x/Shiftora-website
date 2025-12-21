@@ -109,7 +109,7 @@ function BlogPostPage({ post }) {
 
                             <aside className="post-sidebar">
                                 <div className="sidebar-card card">
-                                    <h4>Ready to Automate?</h4>
+                                    <h3>Ready to Automate?</h3>
                                     <p>Get a free automation audit and see how much you could save.</p>
                                     <Link to="/#cta" className="btn btn-primary">
                                         Get Free Audit
@@ -117,7 +117,7 @@ function BlogPostPage({ post }) {
                                 </div>
 
                                 <div className="sidebar-card card">
-                                    <h4>Share This Article</h4>
+                                    <h3>Share This Article</h3>
                                     <div className="share-links">
                                         <a
                                             href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://scaletrailai.com/blog/${post.slug}`)}`}

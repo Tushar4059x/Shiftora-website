@@ -71,7 +71,7 @@ function Solution() {
                                         {benefit.icon}
                                     </div>
                                     <div className="benefit-content">
-                                        <h4 className="benefit-title">{benefit.title}</h4>
+                                        <h3 className="benefit-title">{benefit.title}</h3>
                                         <p className="benefit-description">{benefit.description}</p>
                                     </div>
                                 </div>

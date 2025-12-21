@@ -110,14 +110,14 @@ function Footer() {
 
                     <div className="footer-links">
                         <div className="footer-column">
-                            <h4 className="footer-heading">Services</h4>
+                            <p className="footer-heading" aria-label="Services navigation">Services</p>
                             <ul className="footer-list">
                                 {footerLinks.services.map(renderLink)}
                             </ul>
                         </div>
 
                         <div className="footer-column">
-                            <h4 className="footer-heading">Company</h4>
+                            <p className="footer-heading" aria-label="Company navigation">Company</p>
                             <ul className="footer-list">
                                 {footerLinks.company.map((link, index) => (
                                     <li key={index}>
@@ -128,7 +128,7 @@ function Footer() {
                         </div>
 
                         <div className="footer-column">
-                            <h4 className="footer-heading">Resources</h4>
+                            <p className="footer-heading" aria-label="Resources navigation">Resources</p>
                             <ul className="footer-list">
                                 {footerLinks.resources.map(renderLink)}
                             </ul>
