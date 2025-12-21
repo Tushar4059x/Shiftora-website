@@ -53,13 +53,15 @@
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   </noscript>
 
-  <!-- Critical CSS inline for faster first paint -->
+  <!-- Critical CSS inline for faster first paint + prevent CLS -->
   <style>
     /* Critical above-the-fold styles */
     :root {
       --primary: #8b5cf6;
-      --bg-primary: #0a0a0f;
+      --bg-primary: #050507;
+      --bg-secondary: #0a0a0f;
       --text-primary: #ffffff;
+      --text-secondary: #d4d4d8;
     }
 
     * {
@@ -68,18 +70,96 @@
       box-sizing: border-box;
     }
 
-    body {
-      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
-      background: var(--bg-primary);
-      color: var(--text-primary);
+    html {
+      scroll-behavior: smooth;
     }
 
+    body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: var(--bg-primary);
+      color: var(--text-primary);
+      line-height: 1.6;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* Prevent CLS - Reserve space for navbar */
+    .navbar {
+      height: 80px;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 200;
+    }
+
+    /* Prevent CLS - Reserve minimum height for hero */
+    .hero {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+
+    /* Prevent CLS - Container max-width */
+    .container {
+      max-width: 1280px;
+      margin: 0 auto;
+      padding: 0 1.5rem;
+    }
+
+    /* Loading skeleton for initial render */
+    #root:empty {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+      background: var(--bg-primary);
+    }
+
+    #root:empty::before {
+      content: '';
+      height: 80px;
+      background: var(--bg-secondary);
+    }
+
+    #root:empty::after {
+      content: '';
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(180deg, var(--bg-secondary) 0%, var(--bg-primary) 100%);
+    }
+
+    /* Animation keyframes */
     @keyframes spin {
       to {
         transform: rotate(360deg);
       }
     }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+
+      to {
+        opacity: 1;
+      }
+    }
+
+    /* Font loading optimization */
+    .fonts-loaded body {
+      font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    }
   </style>
+
+  <!-- Font loading detection -->
+  <script>
+    if ('fonts' in document) {
+      document.fonts.ready.then(function () {
+        document.documentElement.classList.add('fonts-loaded');
+      });
+    }
+  </script>
 
   <!-- JSON-LD Structured Data -->
   <script type="application/ld+json">

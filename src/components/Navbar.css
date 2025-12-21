@@ -6,6 +6,8 @@
     z-index: var(--z-fixed);
     padding: var(--spacing-lg) 0;
     transition: all var(--transition-smooth);
+    /* Prevent CLS */
+    min-height: 80px;
 }
 
 .navbar-scrolled {
@@ -13,6 +15,7 @@
     backdrop-filter: blur(20px);
     border-bottom: 1px solid var(--border-color-light);
     padding: var(--spacing-md) 0;
+    min-height: 70px;
 }
 
 .navbar-container {
