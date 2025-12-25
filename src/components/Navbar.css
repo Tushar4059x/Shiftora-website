@@ -168,7 +168,7 @@
 
     .navbar-scrolled .logo-image {
         margin-top: 0;
-        margin-bottom: 0;
+        margin-bottom: -30px;
     }
 
     .navbar-scrolled .navbar-mobile-toggle {
