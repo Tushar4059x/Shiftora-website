@@ -136,9 +136,8 @@ function Footer() {
                         © {currentYear} Shiftora AI. All rights reserved.
                     </p>
                     <div className="footer-legal">
-                        <a href="#" className="footer-link">Privacy Policy</a>
-                        <a href="#" className="footer-link">Terms of Service</a>
-                        <a href="#" className="footer-link">Cookie Policy</a>
+                        <a href="/#cta" className="footer-link">Contact Us</a>
+                        <a href="https://cal.com/shreshth-daga-rxfhkj/30min" target="_blank" rel="noopener noreferrer" className="footer-link">Book a Call</a>
                     </div>
                 </div>
             </div>
