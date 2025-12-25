@@ -72,9 +72,9 @@
 /* Mobile logo sizing */
 @media (max-width: 768px) {
     .logo-image {
-        height: 180px;
-        margin-top: 0;
-        margin-bottom: 0;
+        height: 150px;
+        margin-top: -30px;
+        margin-bottom: -30px;
     }
 }
 
@@ -154,11 +154,11 @@
 
 @media (max-width: 768px) {
     .navbar {
-        padding: var(--spacing-xs) 0;
+        padding: var(--spacing-md) 0;
     }
 
     .navbar-scrolled {
-        padding: 0;
+        padding: var(--spacing-sm) 0;
     }
 
     .navbar-container {
