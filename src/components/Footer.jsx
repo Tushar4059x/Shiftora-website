@@ -81,15 +81,10 @@ function Footer() {
                 <div className="footer-top">
                     <div className="footer-brand">
                         <Link to="/" className="footer-logo">
-                            <div className="logo-icon">
-                                <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                    <path d="M13 2L3 14H12L11 22L21 10H12L13 2Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                                </svg>
-                            </div>
-                            <span className="logo-text">Scaletrail<span className="logo-highlight">AI</span></span>
+                            <img src="/logo.png" alt="Shiftora AI" className="logo-image" />
                         </Link>
                         <p className="footer-tagline">
-                            Empowering businesses with intelligent automation solutions.
+                            Empowering businesses with intelligent AI automation.
                             Save time, reduce costs, and scale effortlessly.
                         </p>
                         <div className="footer-social">
@@ -138,7 +133,7 @@ function Footer() {
 
                 <div className="footer-bottom">
                     <p className="footer-copyright">
-                        © {currentYear} ScaletrailAI. All rights reserved.
+                        © {currentYear} Shiftora AI. All rights reserved.
                     </p>
                     <div className="footer-legal">
                         <a href="#" className="footer-link">Privacy Policy</a>

@@ -58,7 +58,7 @@ function ServicePage({ service }) {
                 <meta name="description" content={service.metaDescription} />
                 <meta property="og:title" content={service.metaTitle} />
                 <meta property="og:description" content={service.metaDescription} />
-                <link rel="canonical" href={`https://scaletrailai.com/services/${service.slug}`} />
+                <link rel="canonical" href={`https://shiftora.ai/services/${service.slug}`} />
             </Helmet>
 
             <section className="service-hero">

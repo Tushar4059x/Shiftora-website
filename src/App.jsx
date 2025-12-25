@@ -1,5 +1,6 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 import { lazy, Suspense } from 'react'
+import { ThemeProvider } from './context/ThemeContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
 
@@ -35,37 +36,40 @@ const PageLoader = () => (
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <main>
-        <Suspense fallback={<PageLoader />}>
-          <Routes>
-            <Route path="/" element={<HomePage />} />
+    <ThemeProvider>
+      <Router>
+        <Navbar />
+        <main>
+          <Suspense fallback={<PageLoader />}>
+            <Routes>
+              <Route path="/" element={<HomePage />} />
 
-            {/* Service Pages */}
-            {services.map((service) => (
-              <Route
-                key={service.slug}
-                path={`/services/${service.slug}`}
-                element={<ServicePage service={service} />}
-              />
-            ))}
+              {/* Service Pages */}
+              {services.map((service) => (
+                <Route
+                  key={service.slug}
+                  path={`/services/${service.slug}`}
+                  element={<ServicePage service={service} />}
+                />
+              ))}
 
-            {/* Blog Pages */}
-            <Route path="/blog" element={<BlogPage posts={blogPosts} />} />
-            {blogPosts.map((post) => (
-              <Route
-                key={post.slug}
-                path={`/blog/${post.slug}`}
-                element={<BlogPostPage post={post} />}
-              />
-            ))}
-          </Routes>
-        </Suspense>
-      </main>
-      <Footer />
-    </Router>
+              {/* Blog Pages */}
+              <Route path="/blog" element={<BlogPage posts={blogPosts} />} />
+              {blogPosts.map((post) => (
+                <Route
+                  key={post.slug}
+                  path={`/blog/${post.slug}`}
+                  element={<BlogPostPage post={post} />}
+                />
+              ))}
+            </Routes>
+          </Suspense>
+        </main>
+        <Footer />
+      </Router>
+    </ThemeProvider>
   )
 }
 
 export default App
+

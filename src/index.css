@@ -1,7 +1,7 @@
 /* =====================================================
-   SCALETRAIL AI - DESIGN SYSTEM
+   SHIFTORA AI - DESIGN SYSTEM
    A premium, dark-mode design system with 
-   purple/blue gradients and glassmorphism
+   blue gradients and glassmorphism
    ===================================================== */
 
 /* -------------------- CSS RESET -------------------- */
@@ -22,49 +22,55 @@ html {
 /* -------------------- CSS VARIABLES -------------------- */
 :root {
   /* Colors - Dark Mode */
-  --bg-primary: #050507;
-  --bg-secondary: #0a0a0f;
-  --bg-tertiary: #12121a;
-  --bg-card: rgba(18, 18, 26, 0.6);
-  --bg-card-hover: rgba(26, 26, 38, 0.8);
+  --bg-primary: #050609;
+  --bg-secondary: #0a0c12;
+  --bg-tertiary: #101520;
+  --bg-card: rgba(16, 21, 32, 0.6);
+  --bg-card-hover: rgba(26, 35, 52, 0.8);
 
-  /* Accent Colors */
-  --accent-purple: #8b5cf6;
-  --accent-purple-light: #a78bfa;
-  --accent-purple-dark: #7c3aed;
-  --accent-blue: #3b82f6;
-  --accent-blue-light: #60a5fa;
-  --accent-cyan: #06b6d4;
+  /* Accent Colors - Shiftora Blue Palette */
+  --accent-primary: #5B9BD5;
+  --accent-primary-light: #7DAFE3;
+  --accent-primary-dark: #4A8BC4;
+  --accent-navy: #1E3A5F;
+  --accent-navy-light: #2A4D78;
+  --accent-navy-dark: #152A42;
+  --accent-blue: #5B9BD5;
+  --accent-blue-light: #7DAFE3;
+  --accent-cyan: #4ECDC4;
   --accent-pink: #ec4899;
   --accent-green: #10b981;
   --accent-orange: #f59e0b;
 
+  /* Legacy aliases for compatibility */
+  --accent-purple: #5B9BD5;
+  --accent-purple-light: #7DAFE3;
+  --accent-purple-dark: #4A8BC4;
+  --primary: #5B9BD5;
+
   /* Text Colors - WCAG AA compliant contrast ratios */
   --text-primary: #ffffff;
-  --text-secondary: #d4d4d8;
-  /* Increased from #a1a1aa for 7:1+ contrast */
-  --text-tertiary: #a1a1aa;
-  /* Increased from #71717a for 4.5:1+ contrast */
-  --text-muted: #71717a;
-  /* Increased from #52525b for better readability */
+  --text-secondary: #d4d8e0;
+  --text-tertiary: #a1a8b4;
+  --text-muted: #717888;
 
-  /* Gradients */
-  --gradient-primary: linear-gradient(135deg, #8b5cf6 0%, #3b82f6 100%);
-  --gradient-secondary: linear-gradient(135deg, #3b82f6 0%, #06b6d4 100%);
-  --gradient-hero: linear-gradient(180deg, #0a0a0f 0%, #050507 100%);
-  --gradient-card: linear-gradient(145deg, rgba(139, 92, 246, 0.1) 0%, rgba(59, 130, 246, 0.05) 100%);
-  --gradient-glow: radial-gradient(ellipse at center, rgba(139, 92, 246, 0.15) 0%, transparent 70%);
+  /* Gradients - Shiftora Blue Theme */
+  --gradient-primary: linear-gradient(135deg, #5B9BD5 0%, #1E3A5F 100%);
+  --gradient-secondary: linear-gradient(135deg, #7DAFE3 0%, #4ECDC4 100%);
+  --gradient-hero: linear-gradient(180deg, #0a0c12 0%, #050609 100%);
+  --gradient-card: linear-gradient(145deg, rgba(91, 155, 213, 0.1) 0%, rgba(30, 58, 95, 0.05) 100%);
+  --gradient-glow: radial-gradient(ellipse at center, rgba(91, 155, 213, 0.15) 0%, transparent 70%);
 
   /* Borders */
-  --border-color: rgba(139, 92, 246, 0.2);
+  --border-color: rgba(91, 155, 213, 0.2);
   --border-color-light: rgba(255, 255, 255, 0.1);
 
   /* Shadows */
   --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.3);
   --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.4);
   --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 40px rgba(139, 92, 246, 0.3);
-  --shadow-glow-strong: 0 0 60px rgba(139, 92, 246, 0.5);
+  --shadow-glow: 0 0 40px rgba(91, 155, 213, 0.3);
+  --shadow-glow-strong: 0 0 60px rgba(91, 155, 213, 0.5);
 
   /* Typography */
   --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -116,6 +122,45 @@ html {
   /* Container */
   --container-max: 1280px;
   --container-padding: 1.5rem;
+}
+
+/* -------------------- LIGHT THEME -------------------- */
+[data-theme="light"] {
+  /* Colors - Light Mode */
+  --bg-primary: #ffffff;
+  --bg-secondary: #f8fafc;
+  --bg-tertiary: #f1f5f9;
+  --bg-card: rgba(255, 255, 255, 0.9);
+  --bg-card-hover: rgba(248, 250, 252, 0.95);
+
+  /* Text Colors */
+  --text-primary: #0f172a;
+  --text-secondary: #475569;
+  --text-tertiary: #64748b;
+  --text-muted: #94a3b8;
+
+  /* Accent Colors - Slightly darker for light mode contrast */
+  --accent-primary: #4A8BC4;
+  --accent-primary-light: #5B9BD5;
+  --accent-primary-dark: #3A7BB4;
+
+  /* Gradients - Light Mode */
+  --gradient-primary: linear-gradient(135deg, #5B9BD5 0%, #3A7BB4 100%);
+  --gradient-secondary: linear-gradient(135deg, #7DAFE3 0%, #4ECDC4 100%);
+  --gradient-hero: linear-gradient(180deg, #f8fafc 0%, #ffffff 100%);
+  --gradient-card: linear-gradient(145deg, rgba(91, 155, 213, 0.05) 0%, rgba(30, 58, 95, 0.02) 100%);
+  --gradient-glow: radial-gradient(ellipse at center, rgba(91, 155, 213, 0.08) 0%, transparent 70%);
+
+  /* Borders - Light Mode */
+  --border-color: rgba(91, 155, 213, 0.3);
+  --border-color-light: rgba(0, 0, 0, 0.08);
+
+  /* Shadows - Light Mode */
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 20px rgba(0, 0, 0, 0.1);
+  --shadow-lg: 0 8px 40px rgba(0, 0, 0, 0.12);
+  --shadow-glow: 0 0 40px rgba(91, 155, 213, 0.15);
+  --shadow-glow-strong: 0 0 60px rgba(91, 155, 213, 0.25);
 }
 
 /* -------------------- BASE STYLES -------------------- */
@@ -202,11 +247,11 @@ img {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   color: var(--accent-purple);
-  background: rgba(139, 92, 246, 0.1);
+  background: rgba(91, 155, 213, 0.1);
   padding: var(--spacing-sm) var(--spacing-lg);
   border-radius: var(--radius-full);
   margin-bottom: var(--spacing-lg);
-  border: 1px solid rgba(139, 92, 246, 0.2);
+  border: 1px solid rgba(91, 155, 213, 0.2);
 }
 
 .section-title {
@@ -265,6 +310,7 @@ img {
 .btn-primary:hover {
   transform: translateY(-2px);
   box-shadow: var(--shadow-glow-strong);
+  color: #ffffff;
 }
 
 .btn-secondary {
@@ -275,7 +321,7 @@ img {
 }
 
 .btn-secondary:hover {
-  background: rgba(139, 92, 246, 0.1);
+  background: rgba(91, 155, 213, 0.1);
   border-color: var(--accent-purple);
 }
 
@@ -448,11 +494,11 @@ img {
 
   0%,
   100% {
-    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+    box-shadow: 0 0 20px rgba(91, 155, 213, 0.3);
   }
 
   50% {
-    box-shadow: 0 0 40px rgba(139, 92, 246, 0.6);
+    box-shadow: 0 0 40px rgba(91, 155, 213, 0.6);
   }
 }
 
@@ -524,8 +570,8 @@ img {
   position: absolute;
   inset: 0;
   background-image:
-    linear-gradient(rgba(139, 92, 246, 0.03) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(139, 92, 246, 0.03) 1px, transparent 1px);
+    linear-gradient(rgba(91, 155, 213, 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(91, 155, 213, 0.03) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse at center, black 30%, transparent 80%);
   pointer-events: none;
@@ -567,7 +613,7 @@ img {
 
 .input:focus {
   border-color: var(--accent-purple);
-  box-shadow: 0 0 0 3px rgba(139, 92, 246, 0.1);
+  box-shadow: 0 0 0 3px rgba(91, 155, 213, 0.1);
 }
 
 .input::placeholder {
@@ -619,9 +665,9 @@ img {
 }
 
 .badge-purple {
-  background: rgba(139, 92, 246, 0.2);
+  background: rgba(91, 155, 213, 0.2);
   color: var(--accent-purple-light);
-  border: 1px solid rgba(139, 92, 246, 0.3);
+  border: 1px solid rgba(91, 155, 213, 0.3);
 }
 
 .badge-green {
@@ -657,6 +703,6 @@ img {
 
 /* -------------------- SELECTION -------------------- */
 ::selection {
-  background: rgba(139, 92, 246, 0.3);
+  background: rgba(91, 155, 213, 0.3);
   color: var(--text-primary);
 }

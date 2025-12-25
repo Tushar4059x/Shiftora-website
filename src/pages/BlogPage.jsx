@@ -14,11 +14,11 @@ function BlogPage({ posts }) {
     return (
         <>
             <Helmet>
-                <title>AI Automation Blog | Tips, Guides & Insights | ScaletrailAI</title>
+                <title>AI Automation Blog | Tips, Guides & Insights | Shiftora AI</title>
                 <meta name="description" content="Learn about AI automation, business process optimization, and how to save time with intelligent automation. Expert guides, case studies, and tips." />
-                <meta property="og:title" content="AI Automation Blog | ScaletrailAI" />
+                <meta property="og:title" content="AI Automation Blog | Shiftora AI" />
                 <meta property="og:description" content="Learn about AI automation, business process optimization, and how to save time with intelligent automation." />
-                <link rel="canonical" href="https://scaletrailai.com/blog" />
+                <link rel="canonical" href="https://shiftora.ai/blog" />
             </Helmet>
 
             <section className="blog-hero">

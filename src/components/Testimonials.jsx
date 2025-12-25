@@ -3,7 +3,7 @@ import './Testimonials.css'
 function Testimonials() {
     const testimonials = [
         {
-            quote: "ScaletrailAI transformed our operations completely. We went from spending 6 hours daily on data entry to just 30 minutes of oversight. The ROI was visible within the first week.",
+            quote: "Shiftora AI transformed our operations completely. We went from spending 6 hours daily on data entry to just 30 minutes of oversight. The ROI was visible within the first week.",
             author: "Sarah Chen",
             role: "Operations Director",
             company: "TechFlow Solutions",
@@ -11,7 +11,7 @@ function Testimonials() {
             avatar: "SC"
         },
         {
-            quote: "I was skeptical about AI automation at first, but the team at ScaletrailAI made the transition seamless. Our customer response time dropped from 24 hours to under 3 minutes.",
+            quote: "I was skeptical about AI automation at first, but the team at Shiftora AI made the transition seamless. Our customer response time dropped from 24 hours to under 3 minutes.",
             author: "Michael Rodriguez",
             role: "CEO",
             company: "Elevate Retail",
@@ -27,7 +27,7 @@ function Testimonials() {
             avatar: "EW"
         },
         {
-            quote: "We've reduced our operational costs by 40% since partnering with ScaletrailAI. Their process was transparent, and they delivered exactly what they promised—on time.",
+            quote: "We've reduced our operational costs by 40% since partnering with Shiftora AI. Their process was transparent, and they delivered exactly what they promised—on time.",
             author: "David Park",
             role: "Founder",
             company: "Nexus Logistics",
@@ -35,7 +35,7 @@ function Testimonials() {
             avatar: "DP"
         },
         {
-            quote: "The inventory automation alone saved us from two stockouts that would have cost us $50K each. ScaletrailAI pays for itself many times over every single month.",
+            quote: "The inventory automation alone saved us from two stockouts that would have cost us $50K each. Shiftora AI pays for itself many times over every single month.",
             author: "Jessica Torres",
             role: "Supply Chain Manager",
             company: "Urban Goods Co.",

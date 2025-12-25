@@ -27,7 +27,7 @@
     transform: translate(-50%, -50%);
     width: 1000px;
     height: 600px;
-    background: radial-gradient(ellipse, rgba(139, 92, 246, 0.08) 0%, transparent 70%);
+    background: radial-gradient(ellipse, rgba(91, 155, 213, 0.08) 0%, transparent 70%);
 }
 
 .results-stats {

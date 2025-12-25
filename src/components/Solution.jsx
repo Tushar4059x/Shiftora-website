@@ -102,7 +102,7 @@ function Solution() {
                                         </svg>
                                     </div>
                                     <div className="demo-item demo-output">
-                                        <span className="demo-label">With ScaletrailAI</span>
+                                        <span className="demo-label">With Shiftora AI</span>
                                         <div className="demo-bar demo-bar-new">
                                             <div className="demo-fill" style={{ width: '8%' }}></div>
                                         </div>

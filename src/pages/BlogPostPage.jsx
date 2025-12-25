@@ -44,7 +44,7 @@ function BlogPostPage({ post }) {
                 <meta property="og:type" content="article" />
                 <meta property="article:published_time" content={post.publishDate} />
                 <meta property="article:author" content={post.author} />
-                <link rel="canonical" href={`https://scaletrailai.com/blog/${post.slug}`} />
+                <link rel="canonical" href={`https://shiftora.ai/blog/${post.slug}`} />
 
                 {/* Article Schema */}
                 <script type="application/ld+json">
@@ -59,10 +59,10 @@ function BlogPostPage({ post }) {
                         },
                         "publisher": {
                             "@type": "Organization",
-                            "name": "ScaletrailAI",
+                            "name": "Shiftora AI",
                             "logo": {
                                 "@type": "ImageObject",
-                                "url": "https://scaletrailai.com/favicon.svg"
+                                "url": "https://shiftora.ai/favicon.svg"
                             }
                         },
                         "datePublished": post.publishDate,
@@ -120,7 +120,7 @@ function BlogPostPage({ post }) {
                                     <h3>Share This Article</h3>
                                     <div className="share-links">
                                         <a
-                                            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://scaletrailai.com/blog/${post.slug}`)}`}
+                                            href={`https://twitter.com/intent/tweet?text=${encodeURIComponent(post.title)}&url=${encodeURIComponent(`https://shiftora.ai/blog/${post.slug}`)}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="share-link"
@@ -128,7 +128,7 @@ function BlogPostPage({ post }) {
                                             Twitter
                                         </a>
                                         <a
-                                            href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(`https://scaletrailai.com/blog/${post.slug}`)}&title=${encodeURIComponent(post.title)}`}
+                                            href={`https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(`https://shiftora.ai/blog/${post.slug}`)}&title=${encodeURIComponent(post.title)}`}
                                             target="_blank"
                                             rel="noopener noreferrer"
                                             className="share-link"

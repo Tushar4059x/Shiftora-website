@@ -61,6 +61,14 @@
     background-clip: text;
 }
 
+.logo-image {
+    height: 162px;
+    width: auto;
+    object-fit: contain;
+    margin-top: -50px;
+    margin-bottom: -50px;
+}
+
 .navbar-links {
     display: flex;
     align-items: center;
@@ -165,5 +173,22 @@
 
     .navbar-mobile-toggle {
         display: flex;
+    }
+}
+
+/* -------------------- LIGHT THEME OVERRIDES -------------------- */
+[data-theme="light"] .navbar-scrolled {
+    background: rgba(255, 255, 255, 0.95);
+    border-bottom: 1px solid rgba(91, 155, 213, 0.15);
+}
+
+[data-theme="light"] .navbar-mobile-toggle span {
+    background: var(--text-primary);
+}
+
+@media (max-width: 768px) {
+    [data-theme="light"] .navbar-links {
+        background: rgba(255, 255, 255, 0.98);
+        border-bottom: 1px solid rgba(91, 155, 213, 0.15);
     }
 }
