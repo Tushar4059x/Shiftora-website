@@ -5,6 +5,7 @@
     right: 0;
     z-index: var(--z-fixed);
     padding: var(--spacing-lg) 0;
+    padding-top: max(var(--spacing-lg), env(safe-area-inset-top));
     transition: all var(--transition-smooth);
     /* Prevent CLS */
     min-height: 80px;
