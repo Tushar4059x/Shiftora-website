@@ -9,10 +9,11 @@ export function ThemeProvider({ children }) {
         if (saved) return saved
 
         // Check system preference
-        if (window.matchMedia('(prefers-color-scheme: light)').matches) {
-            return 'light'
+        if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+            return 'dark'
         }
-        return 'dark'
+        // Default to light theme
+        return 'light'
     })
 
     useEffect(() => {
