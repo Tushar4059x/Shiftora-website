@@ -1,8 +1,12 @@
-import { Link } from 'react-router-dom'
+import { Link, useNavigate, useLocation } from 'react-router-dom'
+import { useEffect } from 'react'
 import './Footer.css'
 
 function Footer() {
     const currentYear = new Date().getFullYear()
+
+    const navigate = useNavigate()
+    const location = useLocation()
 
     const footerLinks = {
         services: [
@@ -13,11 +17,11 @@ function Footer() {
             { label: 'Email Automation', href: '/services/email-communication-automation', isRoute: true }
         ],
         company: [
-            { label: 'About Us', href: '/#hero' },
-            { label: 'Case Studies', href: '/#results' },
-            { label: 'Process', href: '/#process' },
-            { label: 'Pricing', href: '/#pricing' },
-            { label: 'Contact', href: '/#cta' }
+            { label: 'About Us', section: 'hero' },
+            { label: 'Case Studies', section: 'results' },
+            { label: 'Process', section: 'process' },
+            { label: 'Pricing', section: 'pricing' },
+            { label: 'Contact', section: 'cta' }
         ],
         resources: [
             { label: 'Blog', href: '/blog', isRoute: true },
@@ -25,6 +29,25 @@ function Footer() {
             { label: 'Signs You Need Automation', href: '/blog/5-signs-your-business-needs-automation', isRoute: true },
             { label: 'ROI of AI Automation', href: '/blog/roi-of-ai-automation', isRoute: true }
         ]
+    }
+
+    const handleSectionClick = (sectionId) => {
+        if (location.pathname !== '/') {
+            // Navigate to home first, then scroll
+            navigate('/')
+            setTimeout(() => {
+                const element = document.getElementById(sectionId)
+                if (element) {
+                    element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+                }
+            }, 100)
+        } else {
+            // Already on home, just scroll
+            const element = document.getElementById(sectionId)
+            if (element) {
+                element.scrollIntoView({ behavior: 'smooth', block: 'start' })
+            }
+        }
     }
 
     const socialLinks = [
@@ -116,7 +139,13 @@ function Footer() {
                             <ul className="footer-list">
                                 {footerLinks.company.map((link, index) => (
                                     <li key={index}>
-                                        <a href={link.href} className="footer-link">{link.label}</a>
+                                        <button
+                                            onClick={() => handleSectionClick(link.section)}
+                                            className="footer-link"
+                                            style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left', width: '100%' }}
+                                        >
+                                            {link.label}
+                                        </button>
                                     </li>
                                 ))}
                             </ul>
