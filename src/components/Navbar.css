@@ -167,6 +167,7 @@
 
     .navbar-logo {
         justify-content: center;
+        margin-top: -20px;
     }
 
     .navbar-links {
