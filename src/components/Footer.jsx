@@ -110,6 +110,7 @@ function Footer() {
                             Empowering businesses with intelligent AI automation.
                             Save time, reduce costs, and scale effortlessly.
                         </p>
+                        {/* Social links hidden until accounts are created
                         <div className="footer-social">
                             {socialLinks.map((link, index) => (
                                 <a
@@ -124,6 +125,7 @@ function Footer() {
                                 </a>
                             ))}
                         </div>
+                        */}
                     </div>
 
                     <div className="footer-links">
