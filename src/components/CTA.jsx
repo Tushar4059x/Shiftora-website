@@ -43,7 +43,7 @@ function CTA() {
                     </div>
 
                     <div className="cta-actions">
-                        <a href="https://calendly.com" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-large cta-button">
+                        <a href="https://cal.com/shreshth-daga-rxfhkj/30min" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-large cta-button">
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
                                 <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" strokeWidth="2" />
                                 <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />

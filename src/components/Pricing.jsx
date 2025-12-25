@@ -1,7 +1,7 @@
 import './Pricing.css'
 
 function Pricing() {
-    const calendlyLink = "https://calendly.com/shiftora-ai/quote"
+    const calendlyLink = "https://cal.com/shreshth-daga-rxfhkj/30min"
 
     const features = [
         "Custom AI automation workflows",
