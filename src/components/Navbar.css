@@ -161,6 +161,20 @@
         padding: var(--spacing-sm) 0;
     }
 
+    /* Reset negative margins when scrolled */
+    .navbar-scrolled .navbar-logo {
+        margin-top: 0;
+    }
+
+    .navbar-scrolled .logo-image {
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .navbar-scrolled .navbar-mobile-toggle {
+        margin-top: 0;
+    }
+
     .navbar-container {
         justify-content: center;
     }
