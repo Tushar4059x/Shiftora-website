@@ -72,9 +72,9 @@
 /* Mobile logo sizing */
 @media (max-width: 768px) {
     .logo-image {
-        height: 150px;
-        margin-top: -30px;
-        margin-bottom: -30px;
+        height: 120px;
+        margin-top: 0;
+        margin-bottom: 0;
     }
 }
 
@@ -154,25 +154,12 @@
 
 @media (max-width: 768px) {
     .navbar {
-        padding: var(--spacing-md) 0;
+        padding: var(--spacing-xs) 0;
+        overflow: hidden;
     }
 
     .navbar-scrolled {
-        padding: var(--spacing-sm) 0;
-    }
-
-    /* Reset negative margins when scrolled */
-    .navbar-scrolled .navbar-logo {
-        margin-top: 0;
-    }
-
-    .navbar-scrolled .logo-image {
-        margin-top: 0;
-        margin-bottom: -30px;
-    }
-
-    .navbar-scrolled .navbar-mobile-toggle {
-        margin-top: 0;
+        padding: var(--spacing-xs) 0;
     }
 
     .navbar-container {
@@ -181,7 +168,7 @@
 
     .navbar-logo {
         justify-content: center;
-        margin-top: -20px;
+        margin-top: 0;
     }
 
     .navbar-links {
@@ -230,7 +217,7 @@
         justify-content: center;
         position: absolute;
         right: var(--spacing-md);
-        margin-top: -20px;
+        margin-top: 0;
     }
 }
 
