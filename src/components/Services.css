@@ -118,8 +118,46 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     .services-grid {
         grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
+    }
+
+    .service-card {
+        text-align: center;
+        align-items: center;
+    }
+
+    .service-icon {
+        width: 56px;
+        height: 56px;
+    }
+
+    .service-title {
+        font-size: var(--font-size-lg);
+    }
+
+    .service-features {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .service-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .service-title {
+        font-size: var(--font-size-base);
+    }
+
+    .service-description {
+        font-size: var(--font-size-sm);
+    }
+
+    .service-feature {
+        font-size: var(--font-size-xs);
     }
 }

@@ -163,3 +163,24 @@
         text-align: center;
     }
 }
+
+@media (max-width: 480px) {
+    .step-number {
+        width: 48px;
+        height: 48px;
+        font-size: var(--font-size-base);
+    }
+
+    .step-icon {
+        width: 48px;
+        height: 48px;
+    }
+
+    .step-title {
+        font-size: var(--font-size-lg);
+    }
+
+    .step-description {
+        font-size: var(--font-size-sm);
+    }
+}

@@ -69,6 +69,15 @@
     margin-bottom: -50px;
 }
 
+/* Mobile logo sizing */
+@media (max-width: 768px) {
+    .logo-image {
+        height: 50px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}
+
 .navbar-links {
     display: flex;
     align-items: center;
@@ -144,6 +153,14 @@
 }
 
 @media (max-width: 768px) {
+    .navbar {
+        padding: var(--spacing-md) 0;
+    }
+
+    .navbar-scrolled {
+        padding: var(--spacing-sm) 0;
+    }
+
     .navbar-links {
         position: fixed;
         top: 70px;
@@ -159,6 +176,8 @@
         visibility: hidden;
         transition: var(--transition-smooth);
         border-bottom: 1px solid var(--border-color-light);
+        max-height: calc(100vh - 70px);
+        overflow-y: auto;
     }
 
     .navbar-links.active {
@@ -167,12 +186,30 @@
         visibility: visible;
     }
 
+    .navbar-link {
+        font-size: var(--font-size-base);
+        padding: var(--spacing-sm) 0;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+
     .navbar-actions {
-        display: none;
+        gap: var(--spacing-sm);
+    }
+
+    .navbar-actions .btn {
+        padding: var(--spacing-sm) var(--spacing-md);
+        font-size: var(--font-size-xs);
+        min-height: 44px;
     }
 
     .navbar-mobile-toggle {
         display: flex;
+        min-width: 44px;
+        min-height: 44px;
+        align-items: center;
+        justify-content: center;
     }
 }
 

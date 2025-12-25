@@ -267,3 +267,43 @@
         transform: none;
     }
 }
+
+@media (max-width: 768px) {
+    .pricing-toggle {
+        font-size: var(--font-size-sm);
+    }
+
+    .toggle-switch {
+        min-width: 56px;
+        min-height: 44px;
+        display: flex;
+        align-items: center;
+    }
+
+    .plan-name {
+        font-size: var(--font-size-xl);
+    }
+
+    .price-amount {
+        font-size: var(--font-size-4xl);
+    }
+
+    .pricing-guarantee {
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    .plan-name {
+        font-size: var(--font-size-lg);
+    }
+
+    .price-amount {
+        font-size: var(--font-size-3xl);
+    }
+
+    .pricing-feature {
+        font-size: var(--font-size-xs);
+    }
+}

@@ -428,8 +428,60 @@ img {
     font-size: var(--font-size-3xl);
   }
 
+  h3 {
+    font-size: var(--font-size-xl);
+  }
+
   .section {
     padding: var(--spacing-4xl) 0;
+  }
+
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+
+  /* Improve button touch targets */
+  .btn {
+    min-height: 44px;
+    padding: var(--spacing-md) var(--spacing-lg);
+  }
+
+  .btn-large {
+    min-height: 48px;
+    padding: var(--spacing-lg) var(--spacing-xl);
+  }
+}
+
+/* Extra small devices (phones, 480px and down) */
+@media (max-width: 480px) {
+  h1 {
+    font-size: var(--font-size-3xl);
+  }
+
+  h2 {
+    font-size: var(--font-size-2xl);
+  }
+
+  h3 {
+    font-size: var(--font-size-lg);
+  }
+
+  .section {
+    padding: var(--spacing-3xl) 0;
+  }
+
+  .container {
+    padding: 0 var(--spacing-md);
+  }
+
+  .section-header {
+    margin-bottom: var(--spacing-2xl);
+  }
+
+  /* Full-width buttons on very small screens */
+  .btn-large {
+    width: 100%;
+    justify-content: center;
   }
 }
 

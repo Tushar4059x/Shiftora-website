@@ -133,3 +133,26 @@
         gap: var(--spacing-lg);
     }
 }
+
+@media (max-width: 480px) {
+    .cta-title {
+        font-size: var(--font-size-2xl);
+    }
+
+    .cta-description {
+        font-size: var(--font-size-base);
+    }
+
+    .cta-feature {
+        font-size: var(--font-size-sm);
+    }
+
+    .cta-button {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .trust-item {
+        font-size: var(--font-size-xs);
+    }
+}

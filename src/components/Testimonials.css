@@ -102,9 +102,10 @@
     }
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
     .testimonials-grid {
         grid-template-columns: 1fr;
+        gap: var(--spacing-2xl);
     }
 
     .logos-grid {
@@ -113,5 +114,19 @@
 
     .logo-item {
         font-size: var(--font-size-lg);
+    }
+}
+
+@media (max-width: 480px) {
+    .testimonial-quote {
+        font-size: var(--font-size-sm);
+    }
+
+    .author-name {
+        font-size: var(--font-size-sm);
+    }
+
+    .author-role {
+        font-size: var(--font-size-xs);
     }
 }
