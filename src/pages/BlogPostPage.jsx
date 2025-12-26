@@ -1,37 +1,19 @@
 import { useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useParams, Navigate } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import { blogPosts } from 'virtual:blog-posts'
 import './BlogPostPage.css'
 
-function BlogPostPage({ post }) {
+function BlogPostPage() {
+    const { slug } = useParams()
+    const post = blogPosts.find(p => p.slug === slug)
+
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [post])
 
-    // Convert markdown-style content to HTML
-    const formatContent = (content) => {
-        if (!content) return ''
-
-        let html = content
-            // Headers
-            .replace(/^### (.*$)/gm, '<h3>$1</h3>')
-            .replace(/^## (.*$)/gm, '<h2>$1</h2>')
-            // Bold
-            .replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>')
-            // Lists
-            .replace(/^- (.*$)/gm, '<li>$1</li>')
-            .replace(/^(\d+)\. (.*$)/gm, '<li>$2</li>')
-            // Paragraphs
-            .replace(/\n\n/g, '</p><p>')
-            // Links
-            .replace(/\[(.*?)\]\((.*?)\)/g, '<a href="$2">$1</a>')
-            // Table rows
-            .replace(/\|(.*?)\|/g, (match, content) => {
-                const cells = content.split('|').map(cell => `<td>${cell.trim()}</td>`).join('')
-                return `<tr>${cells}</tr>`
-            })
-
-        return `<p>${html}</p>`
+    if (!post) {
+        return <Navigate to="/blog" replace />
     }
 
     return (
