@@ -53,7 +53,7 @@ function CTA() {
                             Book Your Free Discovery Call
                         </a>
                         <p className="cta-note">
-                            Or email us at <a href="mailto:hello@shiftora.ai">hello@shiftora.ai</a>
+                            Or email us at <a href="mailto:Shiftora25@gmail.com">Shiftora25@gmail.com</a>
                         </p>
                     </div>
 
