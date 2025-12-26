@@ -22,10 +22,9 @@ function Navbar() {
     }, [location])
 
     const navLinks = [
-        { href: isHomePage ? '#services' : '/#services', label: 'Services' },
-        { href: isHomePage ? '#process' : '/#process', label: 'Process' },
+        { href: '/solutions', label: 'Solutions', isRoute: true },
+        { href: '/methodology', label: 'Methodology', isRoute: true },
         { href: isHomePage ? '#results' : '/#results', label: 'Results' },
-        { href: isHomePage ? '#pricing' : '/#pricing', label: 'Pricing' },
         { href: '/blog', label: 'Blog', isRoute: true },
     ]
 
