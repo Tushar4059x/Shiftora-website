@@ -3,6 +3,7 @@ import { lazy, Suspense } from 'react'
 import { ThemeProvider } from './context/ThemeContext'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
+import ScrollToTop from './components/ScrollToTop'
 
 // Lazy load pages for code splitting
 const HomePage = lazy(() => import('./pages/HomePage'))
@@ -39,6 +40,7 @@ function App() {
     return (
         <ThemeProvider>
             <Router>
+                <ScrollToTop />
                 <Navbar />
                 <main>
                     <Suspense fallback={<PageLoader />}>
