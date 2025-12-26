@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { Link, useLocation } from 'react-router-dom'
-import ThemeToggle from './ThemeToggle'
+
 import './Navbar.css'
 
 function Navbar() {
@@ -59,7 +59,7 @@ function Navbar() {
                 </div>
 
                 <div className="navbar-actions">
-                    <ThemeToggle />
+
                     <a href="https://cal.com/shreshth-daga-rxfhkj/30min" target="_blank" rel="noopener noreferrer" className="btn btn-primary">
                         Book a Call
                         <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
