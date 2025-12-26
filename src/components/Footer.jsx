@@ -19,8 +19,8 @@ function Footer() {
         company: [
             { label: 'About Us', section: 'hero' },
             { label: 'Case Studies', section: 'results' },
-            { label: 'Process', section: 'process' },
-            { label: 'Pricing', section: 'pricing' },
+            { label: 'Solutions', href: '/solutions', isRoute: true },
+            { label: 'Methodology', href: '/methodology', isRoute: true },
             { label: 'Contact', section: 'cta' }
         ],
         resources: [
@@ -107,8 +107,7 @@ function Footer() {
                             <img src="/logo.png" alt="Shiftora AI" className="logo-image" />
                         </Link>
                         <p className="footer-tagline">
-                            Empowering businesses with intelligent AI automation.
-                            Save time, reduce costs, and scale effortlessly.
+                            Enterprise-grade automation infrastructure.
                         </p>
                         {/* Social links hidden until accounts are created
                         <div className="footer-social">
@@ -141,13 +140,17 @@ function Footer() {
                             <ul className="footer-list">
                                 {footerLinks.company.map((link, index) => (
                                     <li key={index}>
-                                        <button
-                                            onClick={() => handleSectionClick(link.section)}
-                                            className="footer-link"
-                                            style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left', width: '100%' }}
-                                        >
-                                            {link.label}
-                                        </button>
+                                        {link.isRoute ? (
+                                            <Link to={link.href} className="footer-link">{link.label}</Link>
+                                        ) : (
+                                            <button
+                                                onClick={() => handleSectionClick(link.section)}
+                                                className="footer-link"
+                                                style={{ background: 'none', border: 'none', cursor: 'pointer', textAlign: 'left', width: '100%' }}
+                                            >
+                                                {link.label}
+                                            </button>
+                                        )}
                                     </li>
                                 ))}
                             </ul>

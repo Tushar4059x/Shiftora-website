@@ -56,12 +56,10 @@ function Solution() {
                     <div className="solution-text">
                         <span className="section-label">The Solution</span>
                         <h2 className="section-title">
-                            Introducing <span className="gradient-text">AI-Powered Automation</span>
+                            <span className="gradient-text">Deploy Your Autonomous Workforce</span>
                         </h2>
                         <p className="solution-description">
-                            We build intelligent automation systems that handle your repetitive tasks with precision.
-                            From data entry to customer support, from inventory management to reporting—we automate
-                            it all so you can focus on growing your business.
+                            Replace manual dependencies with agentic systems that scale indefinitely.
                         </p>
 
                         <div className="solution-benefits">
@@ -86,6 +84,7 @@ function Solution() {
                                     <span className="badge-dot-green"></span>
                                     Live Demo
                                 </span>
+                                <span className="solution-microcopy">Speed: Instant | Error Rate: 0% | Uptime: 24/7</span>
                             </div>
                             <div className="solution-card-content">
                                 <div className="automation-demo">

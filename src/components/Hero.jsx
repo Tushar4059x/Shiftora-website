@@ -26,14 +26,12 @@ function Hero() {
                     </h1>
 
                     <p className="hero-subtitle">
-                        We help businesses automate their workflows with intelligent AI solutions.
-                        Reduce manual labor by 70%, cut costs, and let your team focus on what matters—
-                        <strong>growing your business.</strong>
+                        Replace manual dependencies with agentic systems that scale indefinitely.
                     </p>
 
                     <div className="hero-cta">
                         <a href="https://cal.com/shreshth-daga-rxfhkj/30min" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-large">
-                            Get Your Free Automation Audit
+                            Book Strategy Audit
                             <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                             </svg>
