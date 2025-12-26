@@ -8,7 +8,6 @@ const Services = lazy(() => import('../components/Services'))
 const Process = lazy(() => import('../components/Process'))
 const Results = lazy(() => import('../components/Results'))
 const Testimonials = lazy(() => import('../components/Testimonials'))
-const Pricing = lazy(() => import('../components/Pricing'))
 const CTA = lazy(() => import('../components/CTA'))
 
 // Simple loading placeholder
@@ -30,7 +29,6 @@ function HomePage() {
                 <Process />
                 <Results />
                 <Testimonials />
-                <Pricing />
                 <CTA />
             </Suspense>
         </>

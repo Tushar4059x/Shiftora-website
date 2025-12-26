@@ -11,36 +11,12 @@ function CTA() {
 
             <div className="container">
                 <div className="cta-content">
-                    <span className="section-label">Let's Get Started</span>
                     <h2 className="cta-title">
-                        Ready to <span className="gradient-text">Transform Your Business?</span>
+                        <span className="gradient-text">Start Automating.</span>
                     </h2>
                     <p className="cta-description">
-                        Book a free 30-minute discovery call. We'll analyze your current workflows,
-                        identify automation opportunities, and show you exactly how much time and money
-                        you could save—with zero obligation.
+                        Book a strategy session to identify your highest-ROI automation targets.
                     </p>
-
-                    <div className="cta-features">
-                        <div className="cta-feature">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                            <span>Free automation audit</span>
-                        </div>
-                        <div className="cta-feature">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                            <span>Custom ROI projection</span>
-                        </div>
-                        <div className="cta-feature">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="none">
-                                <path d="M20 6L9 17L4 12" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
-                            </svg>
-                            <span>No obligation</span>
-                        </div>
-                    </div>
 
                     <div className="cta-actions">
                         <a href="https://cal.com/shreshth-daga-rxfhkj/30min" target="_blank" rel="noopener noreferrer" className="btn btn-primary btn-large cta-button">
@@ -50,7 +26,7 @@ function CTA() {
                                 <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                                 <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" strokeWidth="2" />
                             </svg>
-                            Book Your Free Discovery Call
+                            Book Strategy Audit
                         </a>
                         <p className="cta-note">
                             Or email us at <a href="mailto:Shiftora25@gmail.com">Shiftora25@gmail.com</a>

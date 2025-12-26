@@ -9,10 +9,7 @@ function Problems() {
                     <path d="M12 6V12L16 14" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             ),
-            title: "Wasting Hours on Repetitive Tasks",
-            description: "Your team spends 60% of their time on tasks that could be automated—data entry, reporting, email responses, scheduling.",
-            stat: "60%",
-            statLabel: "of work time wasted"
+            title: "Operational Drag"
         },
         {
             icon: (
@@ -20,10 +17,7 @@ function Problems() {
                     <path d="M12 2V6M12 18V22M6 12H2M22 12H18M19.07 4.93L16.24 7.76M7.76 16.24L4.93 19.07M19.07 19.07L16.24 16.24M7.76 7.76L4.93 4.93" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
                 </svg>
             ),
-            title: "Scaling Feels Impossible",
-            description: "Every new client or order means more manual work. You can't grow without hiring more people—but that cuts into profits.",
-            stat: "3x",
-            statLabel: "hiring costs to scale"
+            title: "Growth Ceiling"
         },
         {
             icon: (
@@ -32,10 +26,7 @@ function Problems() {
                     <path d="M12 9V13M12 17H12.01" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             ),
-            title: "Human Errors Cost You Money",
-            description: "Typos in orders, missed follow-ups, inconsistent data—these small mistakes add up to big losses and unhappy customers.",
-            stat: "$125K",
-            statLabel: "avg. annual error cost"
+            title: "Human Error Costs"
         },
         {
             icon: (
@@ -46,10 +37,7 @@ function Problems() {
                     <path d="M16 3.13C16.8604 3.35031 17.623 3.85071 18.1676 4.55232C18.7122 5.25392 19.0078 6.11683 19.0078 7.005C19.0078 7.89318 18.7122 8.75608 18.1676 9.45769C17.623 10.1593 16.8604 10.6597 16 10.88" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </svg>
             ),
-            title: "Your Best People Are Burning Out",
-            description: "Talented employees leave because they're stuck doing boring, repetitive work instead of high-impact creative tasks.",
-            stat: "67%",
-            statLabel: "burnout from repetition"
+            title: "Team Burnout"
         }
     ]
 
@@ -59,10 +47,10 @@ function Problems() {
                 <div className="section-header">
                     <span className="section-label">The Problem</span>
                     <h2 className="section-title">
-                        Sound Familiar? <span className="gradient-text">You're Not Alone.</span>
+                        <span className="gradient-text">The Cost of Stagnation</span>
                     </h2>
                     <p className="section-subtitle">
-                        These challenges are costing your business thousands every month—and holding you back from reaching your full potential.
+                        Manual workflows are the bottleneck capping your revenue.
                     </p>
                 </div>
 
@@ -77,11 +65,6 @@ function Problems() {
                                 {problem.icon}
                             </div>
                             <h3 className="problem-title">{problem.title}</h3>
-                            <p className="problem-description">{problem.description}</p>
-                            <div className="problem-stat">
-                                <span className="problem-stat-value">{problem.stat}</span>
-                                <span className="problem-stat-label">{problem.statLabel}</span>
-                            </div>
                         </div>
                     ))}
                 </div>

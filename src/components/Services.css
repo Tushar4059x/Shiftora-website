@@ -1,163 +1,77 @@
 .services {
-    background: var(--bg-secondary);
     position: relative;
+    padding-bottom: var(--spacing-xl);
 }
 
-.services::before {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 1px;
-    background: linear-gradient(90deg, transparent, var(--border-color), transparent);
+.capabilities-row {
+    display: flex;
+    justify-content: center;
+    gap: var(--spacing-3xl);
+    flex-wrap: wrap;
+    margin-bottom: var(--spacing-2xl);
 }
 
-.services-grid {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: var(--spacing-xl);
-}
-
-.service-card {
+.capability-item {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-lg);
+    transition: all 0.3s ease;
+    cursor: pointer;
 }
 
-.service-icon {
-    width: 64px;
-    height: 64px;
+.capability-item:hover {
+    transform: translateY(-6px);
+}
+
+.capability-item:hover .capability-icon {
+    box-shadow: 0 8px 24px rgba(91, 155, 213, 0.4);
+    transform: scale(1.05);
+}
+
+.capability-icon {
+    width: 56px;
+    height: 56px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: var(--gradient-primary);
-    border-radius: var(--radius-xl);
+    border-radius: var(--radius-lg);
     color: white;
-    margin-bottom: var(--spacing-xl);
-    box-shadow: var(--shadow-glow);
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 12px rgba(91, 155, 213, 0.2);
 }
 
-.service-title {
-    font-size: var(--font-size-xl);
-    margin-bottom: var(--spacing-md);
-    color: var(--text-primary);
-}
-
-.service-description {
+.capability-title {
     font-size: var(--font-size-base);
-    color: var(--text-secondary);
-    margin-bottom: var(--spacing-xl);
-    line-height: 1.7;
-    flex-grow: 1;
-}
-
-.service-features {
-    display: flex;
-    flex-wrap: wrap;
-    gap: var(--spacing-sm);
-    list-style: none;
-    padding-top: var(--spacing-lg);
-    border-top: 1px solid var(--border-color-light);
-}
-
-.service-feature {
-    display: inline-flex;
-    align-items: center;
-    gap: var(--spacing-xs);
-    font-size: var(--font-size-sm);
-    color: var(--text-tertiary);
-    background: rgba(91, 155, 213, 0.1);
-    padding: var(--spacing-xs) var(--spacing-sm);
-    border-radius: var(--radius-md);
-}
-
-.service-feature svg {
-    color: var(--accent-purple);
+    font-weight: 600;
+    color: var(--text-primary);
+    transition: color 0.2s ease;
 }
 
 .services-cta {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: var(--spacing-lg);
-    margin-top: var(--spacing-4xl);
     text-align: center;
+    margin-top: var(--spacing-xl);
 }
 
-.service-card {
-    text-decoration: none;
-}
-
-.service-link {
+.services-cta .btn {
     display: inline-flex;
     align-items: center;
     gap: var(--spacing-sm);
-    margin-top: var(--spacing-lg);
-    font-size: var(--font-size-sm);
-    font-weight: 600;
-    color: var(--accent-purple);
-    transition: var(--transition-base);
-}
-
-.service-card:hover .service-link {
-    gap: var(--spacing-md);
-}
-
-.services-cta p {
-    font-size: var(--font-size-lg);
-    color: var(--text-secondary);
-}
-
-.services-cta strong {
-    color: var(--text-primary);
-}
-
-@media (max-width: 1024px) {
-    .services-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
 }
 
 @media (max-width: 768px) {
-    .services-grid {
-        grid-template-columns: 1fr;
-        gap: var(--spacing-2xl);
+    .capabilities-row {
+        gap: var(--spacing-xl);
     }
 
-    .service-card {
-        text-align: center;
-        align-items: center;
+    .capability-item {
+        padding: var(--spacing-md);
     }
 
-    .service-icon {
-        width: 56px;
-        height: 56px;
-    }
-
-    .service-title {
-        font-size: var(--font-size-lg);
-    }
-
-    .service-features {
-        justify-content: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .service-icon {
+    .capability-icon {
         width: 48px;
         height: 48px;
-    }
-
-    .service-title {
-        font-size: var(--font-size-base);
-    }
-
-    .service-description {
-        font-size: var(--font-size-sm);
-    }
-
-    .service-feature {
-        font-size: var(--font-size-xs);
     }
 }
