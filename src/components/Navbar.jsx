@@ -33,7 +33,7 @@ function Navbar() {
         <nav className={`navbar ${isScrolled ? 'navbar-scrolled' : ''}`}>
             <div className="container navbar-container">
                 <Link to="/" className="navbar-logo">
-                    <img src="/logo.png" alt="Shiftora AI" className="logo-image" />
+                    <img src="/logo.webp" alt="Shiftora AI" className="logo-image" width="165" height="162" />
                 </Link>
 
                 <div className={`navbar-links ${isMobileMenuOpen ? 'active' : ''}`}>

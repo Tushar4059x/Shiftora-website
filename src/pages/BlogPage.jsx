@@ -1,9 +1,11 @@
 import { useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet-async'
+import { blogPosts } from 'virtual:blog-posts'
 import './BlogPage.css'
 
-function BlogPage({ posts }) {
+function BlogPage() {
+    const posts = blogPosts
     useEffect(() => {
         window.scrollTo(0, 0)
     }, [])

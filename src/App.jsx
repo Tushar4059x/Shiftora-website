@@ -10,9 +10,8 @@ const ServicePage = lazy(() => import('./pages/ServicePage'))
 const BlogPage = lazy(() => import('./pages/BlogPage'))
 const BlogPostPage = lazy(() => import('./pages/BlogPostPage'))
 
-// Data - now loaded from virtual module (markdown files)
+// Data
 import { services } from './data/services'
-import { blogPosts } from 'virtual:blog-posts'
 
 // Loading fallback component
 const PageLoader = () => (
@@ -53,15 +52,9 @@ function App() {
                 />
               ))}
 
-              {/* Blog Pages */}
-              <Route path="/blog" element={<BlogPage posts={blogPosts} />} />
-              {blogPosts.map((post) => (
-                <Route
-                  key={post.slug}
-                  path={`/blog/${post.slug}`}
-                  element={<BlogPostPage post={post} />}
-                />
-              ))}
+              {/* Blog Pages - Dynamic routing to improve bundle size */}
+              <Route path="/blog" element={<BlogPage />} />
+              <Route path="/blog/:slug" element={<BlogPostPage />} />
             </Routes>
           </Suspense>
         </main>
@@ -72,4 +65,3 @@ function App() {
 }
 
 export default App
-
