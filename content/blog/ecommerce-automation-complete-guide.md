@@ -1,10 +1,10 @@
 ---
 title: "Ecommerce Automation: Scale Your Store Without Scaling Your Team"
 slug: "ecommerce-automation-complete-guide"
-metaTitle: "Ecommerce Automation Guide: Scale Without More Staff | ScaletrailAI"
+metaTitle: "Ecommerce Automation Guide: Scale Without More Staff | ShiftoraAI"
 metaDescription: "Learn how to automate your ecommerce business. Order processing, inventory, marketing, support—scale your store without scaling your team."
 excerpt: "Running an ecommerce store shouldn't be a 60-hour-a-week job. Here's how to automate everything."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-14"
 readTime: "13 min read"
 category: "Ecommerce"
@@ -255,7 +255,7 @@ Automation breaks this cycle.
 
 ### Scale Without the Headache
 
-ScaletrailAI helps ecommerce businesses automate operations:
+ShiftoraAI helps ecommerce businesses automate operations:
 - Complete operations automation
 - Multi-channel inventory sync
 - Marketing automation setup

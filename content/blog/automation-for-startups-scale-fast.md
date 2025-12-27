@@ -1,10 +1,10 @@
 ---
 title: "Automation for Startups: Scale Fast Without Breaking"
 slug: "automation-for-startups-scale-fast"
-metaTitle: "Automation for Startups: Scale Fast Without Breaking | ScaletrailAI"
+metaTitle: "Automation for Startups: Scale Fast Without Breaking | ShiftoraAI"
 metaDescription: "Learn how startups can use automation to scale efficiently. Essential automations, tools, and strategies for fast-growing companies."
 excerpt: "Startups that automate early scale faster and crash less. Here's the playbook."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-13"
 readTime: "10 min read"
 category: "Startups"
@@ -97,7 +97,7 @@ Document before you forget why you built it.
 
 ### Scale Your Startup
 
-ScaletrailAI helps startups automate strategically:
+ShiftoraAI helps startups automate strategically:
 - Right tools for your stage
 - Integration architecture
 - Growth-ready systems

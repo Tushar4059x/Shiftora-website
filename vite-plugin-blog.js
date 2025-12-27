@@ -43,7 +43,7 @@ export default function markdownBlogPlugin() {
                         metaTitle: frontmatter.metaTitle || frontmatter.title,
                         metaDescription: frontmatter.metaDescription || frontmatter.excerpt || '',
                         excerpt: frontmatter.excerpt || '',
-                        author: frontmatter.author || 'ScaletrailAI Team',
+                        author: frontmatter.author || 'ShiftoraAI Team',
                         publishDate: frontmatter.publishDate || new Date().toISOString().split('T')[0],
                         readTime: frontmatter.readTime || '5 min read',
                         category: frontmatter.category || 'General',

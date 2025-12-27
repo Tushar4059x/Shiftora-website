@@ -1,10 +1,10 @@
 ---
 title: "The Complete Guide to Workflow Automation in 2024"
 slug: "complete-guide-to-workflow-automation-2024"
-metaTitle: "Workflow Automation Guide 2024: Tools, Strategies & Examples | ScaletrailAI"
+metaTitle: "Workflow Automation Guide 2024: Tools, Strategies & Examples | ShiftoraAI"
 metaDescription: "Master workflow automation in 2024. Learn tools, implementation strategies, real examples, and step-by-step guides for automating your business processes."
 excerpt: "Everything you need to know about workflow automation: what it is, how it works, which tools to use, and how to implement it in your business."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-18"
 readTime: "18 min read"
 category: "Complete Guide"
@@ -265,7 +265,7 @@ When (not if) things fail, you need to know immediately.
 
 ### Need Expert Help?
 
-Building robust workflow automations takes expertise. ScaletrailAI specializes in designing and implementing automation systems for businesses.
+Building robust workflow automations takes expertise. ShiftoraAI specializes in designing and implementing automation systems for businesses.
 
 We'll:
 - Map your existing processes

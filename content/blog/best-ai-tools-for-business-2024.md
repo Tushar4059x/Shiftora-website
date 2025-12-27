@@ -1,10 +1,10 @@
 ---
 title: "Best AI Tools for Business in 2024: Complete Guide"
 slug: "best-ai-tools-for-business-2024"
-metaTitle: "Best AI Tools for Business 2024: Complete Guide | ScaletrailAI"
+metaTitle: "Best AI Tools for Business 2024: Complete Guide | ShiftoraAI"
 metaDescription: "Discover the best AI tools for business in 2024. Productivity, writing, design, data, automation—comprehensive guide with pricing and recommendations."
 excerpt: "The AI tool landscape is overwhelming. Here are the best tools for every business need."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-06"
 readTime: "13 min read"
 category: "Tools"
@@ -101,7 +101,7 @@ There are thousands of AI tools now. Most are noise. Here are the ones that actu
 
 ### Get Expert Recommendations
 
-ScaletrailAI helps businesses choose and implement AI tools:
+ShiftoraAI helps businesses choose and implement AI tools:
 - Needs assessment
 - Tool evaluation
 - Implementation

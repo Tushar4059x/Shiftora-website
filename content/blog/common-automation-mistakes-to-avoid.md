@@ -1,10 +1,10 @@
 ---
 title: "Common Automation Mistakes: 15 Pitfalls to Avoid"
 slug: "common-automation-mistakes-to-avoid"
-metaTitle: "15 Common Automation Mistakes to Avoid | ScaletrailAI"
+metaTitle: "15 Common Automation Mistakes to Avoid | ShiftoraAI"
 metaDescription: "Don't make these automation mistakes. Learn the 15 most common pitfalls and how to avoid them for successful business automation."
 excerpt: "Most automation projects fail for the same reasons. Here's how to avoid the common traps."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-09"
 readTime: "10 min read"
 category: "Best Practices"
@@ -87,7 +87,7 @@ When automation fails, what's Plan B?
 
 ### Learn from Others
 
-ScaletrailAI helps businesses avoid automation mistakes:
+ShiftoraAI helps businesses avoid automation mistakes:
 - Strategic planning
 - Best practice implementation
 - Documentation

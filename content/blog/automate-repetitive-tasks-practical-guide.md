@@ -1,10 +1,10 @@
 ---
 title: "Automate Repetitive Tasks: A Practical Guide"
 slug: "automate-repetitive-tasks-practical-guide"
-metaTitle: "How to Automate Repetitive Tasks: Practical Guide | ScaletrailAI"
+metaTitle: "How to Automate Repetitive Tasks: Practical Guide | ShiftoraAI"
 metaDescription: "Learn how to identify and automate repetitive tasks. Step-by-step guide with tools, examples, and implementation strategies."
 excerpt: "Repetitive tasks are automation gold. Here's how to identify and eliminate them."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-07"
 readTime: "8 min read"
 category: "Implementation"
@@ -86,7 +86,7 @@ Never manually save again.
 
 ### Eliminate Your Repetitive Work
 
-ScaletrailAI helps businesses eliminate repetitive tasks:
+ShiftoraAI helps businesses eliminate repetitive tasks:
 - Task identification
 - Solution design
 - Implementation

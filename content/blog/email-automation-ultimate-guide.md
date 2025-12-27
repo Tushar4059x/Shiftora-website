@@ -1,10 +1,10 @@
 ---
 title: "Email Automation: The Ultimate Guide to Saving 10+ Hours Per Week"
 slug: "email-automation-ultimate-guide"
-metaTitle: "Email Automation Guide: Save 10+ Hours Per Week | ScaletrailAI"
+metaTitle: "Email Automation Guide: Save 10+ Hours Per Week | ShiftoraAI"
 metaDescription: "Learn how to automate your email workflow. Complete guide covering tools, templates, sequences, and strategies to save 10+ hours every week."
 excerpt: "Email consumes 28% of the average workday. Here's how to take most of it off your plate with smart automation."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-15"
 readTime: "13 min read"
 category: "Implementation Guide"
@@ -303,7 +303,7 @@ Review and update templates quarterly. Add new FAQs as they emerge.
 
 ### Need Help Implementing?
 
-Email automation should be easy, but doing it well takes expertise. ScaletrailAI helps businesses implement comprehensive email automation that:
+Email automation should be easy, but doing it well takes expertise. ShiftoraAI helps businesses implement comprehensive email automation that:
 
 - Reduces email time by 50%+
 - Never drops important messages

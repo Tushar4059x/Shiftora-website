@@ -1,10 +1,10 @@
 ---
 title: "Social Media Automation: Post Consistently Without the Grind"
 slug: "social-media-automation-guide"
-metaTitle: "Social Media Automation Guide 2024 | ScaletrailAI"
+metaTitle: "Social Media Automation Guide 2024 | ShiftoraAI"
 metaDescription: "Learn how to automate social media marketing. Scheduling, posting, engagement, analytics—maintain consistent presence without the daily grind."
 excerpt: "Social media is a time black hole. Here's how to maintain presence without losing your life to it."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-12"
 readTime: "10 min read"
 category: "Marketing Automation"
@@ -202,7 +202,7 @@ Automated doesn't mean abandoned. Check performance weekly.
 
 ### Get Your Social Media Automated
 
-ScaletrailAI helps businesses set up social media automation that actually works:
+ShiftoraAI helps businesses set up social media automation that actually works:
 - Strategy and planning
 - Tool selection and setup
 - Content workflow design

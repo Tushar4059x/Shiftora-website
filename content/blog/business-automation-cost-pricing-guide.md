@@ -1,10 +1,10 @@
 ---
 title: "How Much Does Business Automation Cost? Complete Pricing Guide"
 slug: "business-automation-cost-pricing-guide"
-metaTitle: "Business Automation Cost: Complete 2024 Pricing Guide | ScaletrailAI"
+metaTitle: "Business Automation Cost: Complete 2024 Pricing Guide | ShiftoraAI"
 metaDescription: "How much does automation cost? Complete breakdown of tools, implementation, and ongoing costs. Real pricing for every budget level."
 excerpt: "What does automation actually cost? Here's a transparent breakdown for every budget level."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-11"
 readTime: "11 min read"
 category: "Pricing"
@@ -127,7 +127,7 @@ Getting your team up to speed.
 
 ### Get a Real Quote
 
-Every business is different. ScaletrailAI provides free, no-obligation assessments:
+Every business is different. ShiftoraAI provides free, no-obligation assessments:
 - Identify opportunities
 - Estimate costs
 - Project ROI

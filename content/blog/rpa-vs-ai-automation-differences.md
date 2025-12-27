@@ -1,10 +1,10 @@
 ---
 title: "RPA vs AI Automation: Understanding the Differences"
 slug: "rpa-vs-ai-automation-differences"
-metaTitle: "RPA vs AI Automation: Key Differences Explained | ScaletrailAI"
+metaTitle: "RPA vs AI Automation: Key Differences Explained | ShiftoraAI"
 metaDescription: "Understand the difference between RPA and AI automation. When to use each, costs, capabilities, and how they work together for maximum impact."
 excerpt: "RPA and AI automation are often confused. Here's what makes them different—and when to use each."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-18"
 readTime: "9 min read"
 category: "Technology"
@@ -154,7 +154,7 @@ The most powerful solutions combine both:
 
 ### We Help You Choose
 
-ScaletrailAI evaluates your needs and recommends the right approach:
+ShiftoraAI evaluates your needs and recommends the right approach:
 - Process assessment
 - Technology selection
 - Hybrid implementations

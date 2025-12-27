@@ -1,10 +1,10 @@
 ---
 title: "How to Choose an AI Automation Agency: The Complete Checklist"
 slug: "how-to-choose-ai-automation-agency"
-metaTitle: "How to Choose an AI Automation Agency: 2024 Checklist | ScaletrailAI"
+metaTitle: "How to Choose an AI Automation Agency: 2024 Checklist | ShiftoraAI"
 metaDescription: "Hiring an AI automation agency? Use this comprehensive checklist to evaluate providers, ask the right questions, and avoid costly mistakes."
 excerpt: "Not all automation agencies are equal. Here's exactly what to look for, what to ask, and red flags to avoid when choosing a partner."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-16"
 readTime: "12 min read"
 category: "Buying Guide"
@@ -238,7 +238,7 @@ Make sure your contract includes:
 - [ ] Confidentiality provisions
 - [ ] Termination conditions
 
-### Why Choose ScaletrailAI
+### Why Choose ShiftoraAI
 
 We built this guide so you could evaluate any agency—including us. Here's how we stack up:
 

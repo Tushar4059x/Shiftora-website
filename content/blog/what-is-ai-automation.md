@@ -1,10 +1,10 @@
 ---
 title: "What is AI Automation? A Complete Guide for Businesses"
 slug: "what-is-ai-automation"
-metaTitle: "What is AI Automation? Complete Business Guide 2024 | ScaletrailAI"
+metaTitle: "What is AI Automation? Complete Business Guide 2024 | ShiftoraAI"
 metaDescription: "Learn what AI automation is, how it works, and why businesses are using it to save 70% of time on repetitive tasks. Complete guide with examples."
 excerpt: "Discover how artificial intelligence is revolutionizing business operations by automating repetitive tasks, reducing errors, and freeing your team to focus on growth."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-15"
 readTime: "8 min read"
 category: "AI Basics"
@@ -66,7 +66,7 @@ The best way to start with AI automation is to:
 
 ### Ready to Automate?
 
-ScaletrailAI specializes in helping businesses implement AI automation. We offer a free automation audit to identify your biggest opportunities.
+ShiftoraAI specializes in helping businesses implement AI automation. We offer a free automation audit to identify your biggest opportunities.
 
 [Book Your Free Audit →](/#cta)
 

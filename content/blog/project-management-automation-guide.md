@@ -1,10 +1,10 @@
 ---
 title: "Project Management Automation: Keep Projects on Track Automatically"
 slug: "project-management-automation-guide"
-metaTitle: "Project Management Automation Guide | ScaletrailAI"
+metaTitle: "Project Management Automation Guide | ShiftoraAI"
 metaDescription: "Automate project management tasks. Status updates, assignments, reminders, reporting—keep projects on track without manual oversight."
 excerpt: "Stop spending more time managing projects than actually doing them. Here's how to automate project management."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-14"
 readTime: "9 min read"
 category: "Operations"
@@ -111,7 +111,7 @@ Build project templates with pre-built tasks and automations.
 
 ### Automate Your Projects
 
-ScaletrailAI helps teams automate project management:
+ShiftoraAI helps teams automate project management:
 - Tool selection
 - Workflow design
 - Template building

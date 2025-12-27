@@ -1,10 +1,10 @@
 ---
 title: "10 Business Tasks You Should Automate Today (And How to Do It)"
 slug: "10-business-tasks-you-should-automate-today"
-metaTitle: "10 Business Tasks to Automate Today | Complete Guide | ScaletrailAI"
+metaTitle: "10 Business Tasks to Automate Today | Complete Guide | ShiftoraAI"
 metaDescription: "Discover the 10 most impactful business tasks you can automate right now. Step-by-step implementation guide with tools, costs, and expected ROI for each."
 excerpt: "Stop wasting time on tasks that should run themselves. Here are 10 high-impact automations you can implement this week."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-19"
 readTime: "15 min read"
 category: "Implementation Guide"
@@ -207,7 +207,7 @@ This guide covers the 10 highest-impact tasks that almost every business can aut
 
 ### Need Help Implementing?
 
-Not everyone has time to set up automations themselves. ScaletrailAI implements these (and more complex) automations for businesses every day.
+Not everyone has time to set up automations themselves. ShiftoraAI implements these (and more complex) automations for businesses every day.
 
 We'll:
 - Audit your current processes

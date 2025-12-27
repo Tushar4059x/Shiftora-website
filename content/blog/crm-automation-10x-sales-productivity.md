@@ -1,10 +1,10 @@
 ---
 title: "CRM Automation: How to 10x Your Sales Productivity"
 slug: "crm-automation-10x-sales-productivity"
-metaTitle: "CRM Automation: 10x Your Sales Productivity | ScaletrailAI"
+metaTitle: "CRM Automation: 10x Your Sales Productivity | ShiftoraAI"
 metaDescription: "Learn how to automate your CRM and multiply sales productivity. From lead entry to pipeline management—complete automation guide."
 excerpt: "Your CRM should work for you, not the other way around. Here's how to automate it completely."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-16"
 readTime: "11 min read"
 category: "Sales Automation"
@@ -205,7 +205,7 @@ Review and optimize monthly.
 
 ### Get More From Your CRM
 
-ScaletrailAI specializes in CRM automation that actually gets used:
+ShiftoraAI specializes in CRM automation that actually gets used:
 - Platform-agnostic expertise
 - Sales team consultation
 - Custom integration development

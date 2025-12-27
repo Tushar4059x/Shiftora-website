@@ -1,10 +1,10 @@
 ---
 title: "Data Entry Automation: Eliminate Manual Work Forever"
 slug: "data-entry-automation-complete-guide"
-metaTitle: "Data Entry Automation Guide: Eliminate Manual Work | ScaletrailAI"
+metaTitle: "Data Entry Automation Guide: Eliminate Manual Work | ShiftoraAI"
 metaDescription: "Learn how to automate data entry completely. Invoice processing, form handling, system syncing—eliminate manual data entry forever."
 excerpt: "Data entry is the definition of wasted human potential. Here's how to eliminate it completely."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-17"
 readTime: "10 min read"
 category: "Data Automation"
@@ -232,7 +232,7 @@ Start with simple, high-volume use cases.
 
 ### Get Started Today
 
-Ready to eliminate data entry? ScaletrailAI builds custom data entry automation solutions that:
+Ready to eliminate data entry? ShiftoraAI builds custom data entry automation solutions that:
 - Process any document type
 - Integrate with your existing systems
 - Handle exceptions intelligently

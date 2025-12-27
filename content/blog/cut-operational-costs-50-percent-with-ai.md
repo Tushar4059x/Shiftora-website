@@ -1,10 +1,10 @@
 ---
 title: "How to Cut Operational Costs by 50% Using AI Automation"
 slug: "cut-operational-costs-50-percent-with-ai"
-metaTitle: "Cut Operational Costs 50% with AI Automation | ScaletrailAI"
+metaTitle: "Cut Operational Costs 50% with AI Automation | ShiftoraAI"
 metaDescription: "Learn exactly how businesses are cutting operational costs by 50% or more using AI automation. Step-by-step strategies with real examples."
 excerpt: "Operational costs eating into your profits? Here's the playbook for cutting expenses in half without sacrificing quality or service."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-17"
 readTime: "11 min read"
 category: "Cost Savings"
@@ -110,7 +110,7 @@ AI automation primarily attacks the first three—which represent 65-95% of your
 
 ### Calculate Your Potential Savings
 
-Ready to see your specific cost reduction opportunity? ScaletrailAI offers a free operational audit. We'll analyze your current costs and show you exactly where 50%+ savings are hiding.
+Ready to see your specific cost reduction opportunity? ShiftoraAI offers a free operational audit. We'll analyze your current costs and show you exactly where 50%+ savings are hiding.
 
 [Get Your Free Cost Analysis →](/#cta)
 

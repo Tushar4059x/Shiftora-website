@@ -1,10 +1,10 @@
 ---
 title: "HR Automation: Streamline Hiring, Onboarding, and Beyond"
 slug: "hr-automation-streamline-hiring-onboarding"
-metaTitle: "HR Automation: Streamline Hiring & Onboarding | ScaletrailAI"
+metaTitle: "HR Automation: Streamline Hiring & Onboarding | ShiftoraAI"
 metaDescription: "Automate HR processes from hiring to offboarding. Complete guide to HR automation tools, strategies, and implementation."
 excerpt: "HR is drowning in paperwork. Here's how to automate every manual HR process."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-13"
 readTime: "12 min read"
 category: "HR Automation"
@@ -205,7 +205,7 @@ Let's automate it.
 
 ### Transform Your HR
 
-ScaletrailAI helps HR teams automate the busywork:
+ShiftoraAI helps HR teams automate the busywork:
 - Process mapping and optimization
 - Tool selection and implementation
 - Integration development

@@ -1,10 +1,10 @@
 ---
 title: "Business Process Automation BPA: A Strategic Guide"
 slug: "business-process-automation-strategic-guide"
-metaTitle: "Business Process Automation (BPA) Guide 2024 | ScaletrailAI"
+metaTitle: "Business Process Automation (BPA) Guide 2024 | ShiftoraAI"
 metaDescription: "Complete guide to business process automation. Strategy, implementation, tools, and best practices for automating your business processes."
 excerpt: "BPA isn't about technology—it's about strategy. Here's how to approach it right."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-10"
 readTime: "14 min read"
 category: "Strategy"
@@ -182,7 +182,7 @@ Without standards, you get automation chaos.
 
 ### Partner for Success
 
-ScaletrailAI helps businesses approach BPA strategically:
+ShiftoraAI helps businesses approach BPA strategically:
 - Process assessment and optimization
 - Technology strategy and selection
 - Implementation and integration

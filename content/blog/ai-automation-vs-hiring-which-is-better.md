@@ -1,10 +1,10 @@
 ---
 title: "AI Automation vs Hiring: Which is Better for Your Business?"
 slug: "ai-automation-vs-hiring-which-is-better"
-metaTitle: "AI Automation vs Hiring: Complete Comparison | ScaletrailAI"
+metaTitle: "AI Automation vs Hiring: Complete Comparison | ShiftoraAI"
 metaDescription: "Should you hire more staff or invest in AI automation? Detailed comparison of costs, benefits, and when each option makes sense."
 excerpt: "When you need more capacity, should you hire or automate? The answer isn't always obvious. Here's how to decide."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-12"
 readTime: "10 min read"
 category: "Business Strategy"
@@ -144,7 +144,7 @@ Ask these questions for any role/task:
 
 The question isn't "should we automate?" It's "what should we automate, and what should humans do?"
 
-ScaletrailAI helps businesses answer this question with a free operational analysis. We'll:
+ShiftoraAI helps businesses answer this question with a free operational analysis. We'll:
 - Map your current tasks and costs
 - Identify automation opportunities
 - Calculate real ROI

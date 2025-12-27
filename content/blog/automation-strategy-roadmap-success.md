@@ -1,10 +1,10 @@
 ---
 title: "Automation Strategy: Building a Roadmap for Success"
 slug: "automation-strategy-roadmap-success"
-metaTitle: "Automation Strategy: Build a Winning Roadmap | ScaletrailAI"
+metaTitle: "Automation Strategy: Build a Winning Roadmap | ShiftoraAI"
 metaDescription: "Learn how to create an automation strategy for your business. Assessment, prioritization, roadmap, and implementation planning guide."
 excerpt: "Random automations create chaos. Strategic automation creates competitive advantage. Here's how to build a roadmap."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-05"
 readTime: "10 min read"
 category: "Strategy"
@@ -102,7 +102,7 @@ Score each opportunity:
 
 ### Build Your Strategy
 
-ScaletrailAI helps businesses build automation strategies:
+ShiftoraAI helps businesses build automation strategies:
 - Current state assessment
 - Opportunity identification
 - Roadmap development
