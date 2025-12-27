@@ -7,7 +7,7 @@ const Solution = lazy(() => import('../components/Solution'))
 const Services = lazy(() => import('../components/Services'))
 const Process = lazy(() => import('../components/Process'))
 const Results = lazy(() => import('../components/Results'))
-const Testimonials = lazy(() => import('../components/Testimonials'))
+
 const CTA = lazy(() => import('../components/CTA'))
 
 // Simple loading placeholder
@@ -28,7 +28,7 @@ function HomePage() {
                 <Services />
                 <Process />
                 <Results />
-                <Testimonials />
+
                 <CTA />
             </Suspense>
         </>
