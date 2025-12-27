@@ -1,10 +1,10 @@
 ---
 title: "AI Automation Trends 2025: What's Coming and How to Prepare"
 slug: "ai-automation-trends-2025"
-metaTitle: "AI Automation Trends 2025: What's Next | ScaletrailAI"
+metaTitle: "AI Automation Trends 2025: What's Next | ShiftoraAI"
 metaDescription: "Explore the top AI automation trends for 2025. Learn what's coming in business automation and how to prepare your organization."
 excerpt: "The pace of AI automation is accelerating. Here's what 2025 holds and how to stay ahead."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-20"
 readTime: "11 min read"
 category: "Industry Trends"
@@ -191,7 +191,7 @@ Increased focus on responsible AI use, transparency, and regulation.
 - [ ] Autonomous functions
 - [ ] Continuous optimization
 
-### Stay Ahead with ScaletrailAI
+### Stay Ahead with ShiftoraAI
 
 We help businesses prepare for the future of AI automation:
 - Trend assessment

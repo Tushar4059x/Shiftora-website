@@ -1,10 +1,10 @@
 ---
 title: "How to Automate Lead Generation: Complete Strategy Guide"
 slug: "automate-lead-generation-complete-guide"
-metaTitle: "Automate Lead Generation: Complete 2024 Guide | ScaletrailAI"
+metaTitle: "Automate Lead Generation: Complete 2024 Guide | ShiftoraAI"
 metaDescription: "Learn how to automate your lead generation process. From capture to qualification to nurturing—complete automation strategies that work."
 excerpt: "Stop chasing leads manually. Here's how to build a lead generation machine that runs 24/7."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-18"
 readTime: "14 min read"
 category: "Lead Generation"
@@ -296,7 +296,7 @@ Ongoing: Optimize based on data
 
 ### Need Expert Help?
 
-Building a lead generation automation system takes expertise. ScaletrailAI specializes in creating lead machines that work while you sleep.
+Building a lead generation automation system takes expertise. ShiftoraAI specializes in creating lead machines that work while you sleep.
 
 [Get Your Free Lead Gen Audit →](/#cta)
 

@@ -1,10 +1,10 @@
 ---
 title: "Digital Transformation: Where AI Automation Fits In"
 slug: "digital-transformation-ai-automation"
-metaTitle: "Digital Transformation & AI Automation Guide | ScaletrailAI"
+metaTitle: "Digital Transformation & AI Automation Guide | ShiftoraAI"
 metaDescription: "Understand how AI automation fits into digital transformation. Strategy, implementation, and real examples of technology-driven business change."
 excerpt: "Digital transformation isn't about technology—it's about using technology to fundamentally change how you operate. Here's how automation fits in."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-08"
 readTime: "11 min read"
 category: "Strategy"
@@ -122,7 +122,7 @@ Define and track success metrics.
 
 ### Partner for Transformation
 
-ScaletrailAI helps businesses with digital transformation:
+ShiftoraAI helps businesses with digital transformation:
 - Strategic roadmapping
 - Automation implementation
 - Integration development

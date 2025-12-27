@@ -1,10 +1,10 @@
 ---
 title: "AI Automation for Small Business: The Complete 2024 Guide"
 slug: "small-business-ai-automation-guide"
-metaTitle: "Small Business AI Automation Guide 2024 | ScaletrailAI"
+metaTitle: "Small Business AI Automation Guide 2024 | ShiftoraAI"
 metaDescription: "The complete guide to AI automation for small businesses. Learn what to automate first, how much it costs, and how to get started without a tech team."
 excerpt: "Think AI automation is only for big companies? Think again. Here's everything small businesses need to know about getting started."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-16"
 readTime: "12 min read"
 category: "Small Business"
@@ -149,7 +149,7 @@ Some things shouldn't be automated. Know where the human touch matters in your b
 
 Implementing automation can feel overwhelming when you're running a business solo or with a small team. That's where we come in.
 
-ScaletrailAI offers a free automation audit specifically designed for small businesses. We'll:
+ShiftoraAI offers a free automation audit specifically designed for small businesses. We'll:
 - Analyze your current operations
 - Identify your biggest automation opportunities
 - Create a realistic roadmap for your budget

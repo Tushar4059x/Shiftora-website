@@ -1,10 +1,10 @@
 ---
 title: "The ROI of AI Automation: What to Expect (With Real Numbers)"
 slug: "roi-of-ai-automation"
-metaTitle: "AI Automation ROI: Real Numbers & Case Studies | ScaletrailAI"
+metaTitle: "AI Automation ROI: Real Numbers & Case Studies | ShiftoraAI"
 metaDescription: "What's the real ROI of AI automation? See actual case studies with numbers: time saved, costs reduced, revenue impact. Data-driven analysis."
 excerpt: "Wondering if AI automation is worth the investment? We break down the real ROI with actual numbers from businesses like yours."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-05"
 readTime: "10 min read"
 category: "ROI & Strategy"

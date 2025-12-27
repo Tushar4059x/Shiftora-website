@@ -1,10 +1,10 @@
 ---
 title: "Marketing Automation for Beginners: Complete Getting Started Guide"
 slug: "marketing-automation-beginners-guide"
-metaTitle: "Marketing Automation for Beginners: Complete Guide | ScaletrailAI"
+metaTitle: "Marketing Automation for Beginners: Complete Guide | ShiftoraAI"
 metaDescription: "New to marketing automation? Learn the basics, tools, and strategies. Complete beginner's guide to automating your marketing in 2024."
 excerpt: "Marketing automation isn't just for big companies. Here's how beginners can start automating campaigns today."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-17"
 readTime: "11 min read"
 category: "Marketing"
@@ -112,7 +112,7 @@ Every email should have one goal.
 
 ### Start Automating Your Marketing
 
-ScaletrailAI helps businesses implement marketing automation:
+ShiftoraAI helps businesses implement marketing automation:
 - Strategy development
 - Tool selection
 - Sequence building

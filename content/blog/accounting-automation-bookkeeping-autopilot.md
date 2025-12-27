@@ -1,10 +1,10 @@
 ---
 title: "Accounting Automation: Bookkeeping on Autopilot"
 slug: "accounting-automation-bookkeeping-autopilot"
-metaTitle: "Accounting Automation: Bookkeeping on Autopilot | ScaletrailAI"
+metaTitle: "Accounting Automation: Bookkeeping on Autopilot | ShiftoraAI"
 metaDescription: "Automate your accounting and bookkeeping. Bank feeds, invoice processing, expense tracking, reconciliation—put your finances on autopilot."
 excerpt: "Manual bookkeeping is expensive and error-prone. Here's how to put your accounting on autopilot."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-15"
 readTime: "9 min read"
 category: "Finance"
@@ -113,7 +113,7 @@ Modern accounting automation handles the tedious work so you don't have to.
 
 ### Automate Your Accounting
 
-ScaletrailAI helps businesses automate their accounting:
+ShiftoraAI helps businesses automate their accounting:
 - Platform selection
 - Integration setup
 - Workflow design

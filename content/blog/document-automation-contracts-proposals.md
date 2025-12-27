@@ -1,10 +1,10 @@
 ---
 title: "Document Automation: Generate Contracts, Proposals & More in Seconds"
 slug: "document-automation-contracts-proposals"
-metaTitle: "Document Automation: Contracts & Proposals | ScaletrailAI"
+metaTitle: "Document Automation: Contracts & Proposals | ShiftoraAI"
 metaDescription: "Automate document creation—contracts, proposals, reports, agreements. Generate professional documents in seconds, not hours."
 excerpt: "Stop recreating documents from scratch. Automate them once, generate them forever."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-08"
 readTime: "9 min read"
 category: "Document Automation"
@@ -183,7 +183,7 @@ It's tedious, error-prone, and completely automatable.
 
 ### Automate Your Documents
 
-ScaletrailAI helps businesses automate document creation:
+ShiftoraAI helps businesses automate document creation:
 - Template design and development
 - CRM and system integration
 - Workflow automation

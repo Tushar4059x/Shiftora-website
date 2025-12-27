@@ -1,10 +1,10 @@
 ---
 title: "AI Chatbots for Business: Everything You Need to Know"
 slug: "ai-chatbots-for-business-complete-guide"
-metaTitle: "AI Chatbots for Business: Complete 2024 Guide | ScaletrailAI"
+metaTitle: "AI Chatbots for Business: Complete 2024 Guide | ShiftoraAI"
 metaDescription: "The complete guide to AI chatbots for business. Learn types, costs, implementation, best practices, and how to choose the right chatbot for your needs."
 excerpt: "AI chatbots can handle 80% of customer inquiries instantly. Here's everything you need to know about implementing one for your business."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-17"
 readTime: "14 min read"
 category: "AI Technology"
@@ -207,7 +207,7 @@ Over time:
 
 **1. Set Clear Expectations**
 Tell users they're talking to a bot. Don't try to trick them.
-> "Hi! I'm Aria, ScaletrailAI's virtual assistant. I can help with common questions instantly, or connect you with our team for complex issues."
+> "Hi! I'm Aria, ShiftoraAI's virtual assistant. I can help with common questions instantly, or connect you with our team for complex issues."
 
 **2. Make Human Handoff Easy**
 Never trap users with the bot. Offer human connection:
@@ -286,7 +286,7 @@ If you're not tracking metrics, you don't know if it's working.
 
 AI chatbots are one of the highest-ROI investments for customer-facing businesses. But implementation matters—a bad chatbot hurts more than helps.
 
-ScaletrailAI designs and implements custom chatbot solutions that:
+ShiftoraAI designs and implements custom chatbot solutions that:
 - Actually solve your customers' problems
 - Integrate with your existing tools
 - Learn and improve over time

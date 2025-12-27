@@ -1,10 +1,10 @@
 ---
 title: "Automate Invoicing: Get Paid Faster, Work Less"
 slug: "automate-invoicing-get-paid-faster"
-metaTitle: "Automate Invoicing: Get Paid Faster | ScaletrailAI"
+metaTitle: "Automate Invoicing: Get Paid Faster | ShiftoraAI"
 metaDescription: "Learn how to automate your invoicing process from creation to payment collection. Save time, reduce errors, and get paid faster."
 excerpt: "Manual invoicing costs you time and delays payments. Here's how to automate every step."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-15"
 readTime: "9 min read"
 category: "Finance Automation"
@@ -211,7 +211,7 @@ All automatic. Let's build each step.
 
 ### Get Paid Faster
 
-ScaletrailAI helps businesses automate their entire invoicing workflow:
+ShiftoraAI helps businesses automate their entire invoicing workflow:
 - Invoice generation
 - Delivery and tracking
 - Follow-up sequences

@@ -1,10 +1,10 @@
 ---
 title: "Zapier vs Make vs n8n: Which Automation Tool is Right for You?"
 slug: "zapier-vs-make-vs-n8n-comparison"
-metaTitle: "Zapier vs Make vs n8n: Complete Comparison 2024 | ScaletrailAI"
+metaTitle: "Zapier vs Make vs n8n: Complete Comparison 2024 | ShiftoraAI"
 metaDescription: "Compare Zapier, Make (Integromat), and n8n. Features, pricing, use cases, and recommendations to help you choose the right automation tool."
 excerpt: "Three popular automation tools, one choice. Here's an honest comparison to help you pick the right one for your needs."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-19"
 readTime: "11 min read"
 category: "Tool Comparison"
@@ -170,7 +170,7 @@ Many businesses use multiple tools:
 
 There's no rule saying you must pick just one.
 
-### ScaletrailAI's Recommendation
+### ShiftoraAI's Recommendation
 
 **For most SMBs:** Start with **Make**. It hits the sweet spot of power, price, and usability. You can always add Zapier for specific integrations or n8n for custom needs.
 

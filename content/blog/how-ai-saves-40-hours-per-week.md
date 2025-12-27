@@ -1,10 +1,10 @@
 ---
 title: "How AI Automation Saves Business Owners 40+ Hours Per Week"
 slug: "how-ai-saves-40-hours-per-week"
-metaTitle: "Save 40+ Hours Per Week with AI Automation | ScaletrailAI"
+metaTitle: "Save 40+ Hours Per Week with AI Automation | ShiftoraAI"
 metaDescription: "Discover how business owners are reclaiming 40+ hours every week using AI automation. Real strategies, real time savings. Get your time back."
 excerpt: "What would you do with an extra 40 hours every week? Here's exactly how AI automation gives business owners their time back."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-18"
 readTime: "9 min read"
 category: "Time Savings"
@@ -126,7 +126,7 @@ Here's what people miss: saving 40 hours/week isn't just about time. It's about 
 
 ### We Can Help
 
-Not sure where to start? ScaletrailAI offers a free time audit. We'll analyze your operations and show you exactly where your hidden hours are—and how to get them back.
+Not sure where to start? ShiftoraAI offers a free time audit. We'll analyze your operations and show you exactly where your hidden hours are—and how to get them back.
 
 [Reclaim Your 40 Hours →](/#cta)
 

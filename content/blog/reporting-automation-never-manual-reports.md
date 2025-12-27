@@ -1,10 +1,10 @@
 ---
 title: "Reporting Automation: Never Manually Build a Report Again"
 slug: "reporting-automation-never-manual-reports"
-metaTitle: "Reporting Automation: Eliminate Manual Reports | ScaletrailAI"
+metaTitle: "Reporting Automation: Eliminate Manual Reports | ShiftoraAI"
 metaDescription: "Learn how to automate business reporting. Dashboards, scheduled reports, KPI tracking—eliminate manual report building forever."
 excerpt: "Stop spending Monday mornings building reports. Here's how to automate them completely."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-11"
 readTime: "9 min read"
 category: "Business Intelligence"
@@ -178,7 +178,7 @@ Options:
 
 ### Never Build a Manual Report Again
 
-ScaletrailAI helps businesses automate their reporting:
+ShiftoraAI helps businesses automate their reporting:
 - Dashboard design and development
 - Data source integration
 - Automated delivery setup

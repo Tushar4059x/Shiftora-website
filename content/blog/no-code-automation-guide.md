@@ -1,10 +1,10 @@
 ---
 title: "No-Code Automation: Build Powerful Workflows Without Programming"
 slug: "no-code-automation-guide"
-metaTitle: "No-Code Automation Guide 2024: Build Without Coding | ScaletrailAI"
+metaTitle: "No-Code Automation Guide 2024: Build Without Coding | ShiftoraAI"
 metaDescription: "Learn how to build powerful automation without writing code. Complete guide to no-code tools, platforms, and strategies for non-technical users."
 excerpt: "You don't need to be a developer to automate your business. Here's how to build powerful workflows without writing a single line of code."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-19"
 readTime: "12 min read"
 category: "No-Code"
@@ -122,7 +122,7 @@ Consider code/developers when:
 
 ### Get Started Today
 
-ScaletrailAI helps businesses build no-code automations:
+ShiftoraAI helps businesses build no-code automations:
 - Tool selection
 - Workflow design
 - Implementation

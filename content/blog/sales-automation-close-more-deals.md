@@ -1,10 +1,10 @@
 ---
 title: "Sales Automation: Close More Deals with Less Effort"
 slug: "sales-automation-close-more-deals"
-metaTitle: "Sales Automation: Close More Deals in Less Time | ScaletrailAI"
+metaTitle: "Sales Automation: Close More Deals in Less Time | ShiftoraAI"
 metaDescription: "Automate your sales process to close more deals with less effort. Complete guide to sales automation tools, strategies, and best practices."
 excerpt: "Top salespeople aren't working harder—they're working smarter with automation. Here's how."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-16"
 readTime: "10 min read"
 category: "Sales"
@@ -117,7 +117,7 @@ This frees reps to do what they do best: sell.
 
 ### Transform Your Sales
 
-ScaletrailAI builds sales automation that actually works:
+ShiftoraAI builds sales automation that actually works:
 - CRM optimization
 - Sequence development
 - Integration setup

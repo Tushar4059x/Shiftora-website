@@ -1,10 +1,10 @@
 ---
 title: "5 Signs Your Business Desperately Needs Automation"
 slug: "5-signs-your-business-needs-automation"
-metaTitle: "5 Signs Your Business Needs Automation | ScaletrailAI"
+metaTitle: "5 Signs Your Business Needs Automation | ShiftoraAI"
 metaDescription: "Is your business ready for automation? Discover the 5 warning signs that indicate you're wasting money on manual processes. Free assessment available."
 excerpt: "Your team is working harder than ever, but growth has stalled. Here are 5 warning signs that manual processes are holding your business back."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-10"
 readTime: "6 min read"
 category: "Business Growth"
@@ -65,7 +65,7 @@ If you're reading this, you probably suspect your business could benefit from au
 
 ## Take the First Step
 
-Not sure where to start? ScaletrailAI offers a free automation audit. We'll analyze your operations, identify the biggest opportunities, and show you exactly how much you could save.
+Not sure where to start? ShiftoraAI offers a free automation audit. We'll analyze your operations, identify the biggest opportunities, and show you exactly how much you could save.
 
 [Get Your Free Audit →](/#cta)
 

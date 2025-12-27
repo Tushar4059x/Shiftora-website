@@ -1,10 +1,10 @@
 ---
 title: "Automation for Agencies: Deliver More Without More Staff"
 slug: "automation-for-agencies-deliver-more"
-metaTitle: "Automation for Agencies: Scale Your Agency | ScaletrailAI"
+metaTitle: "Automation for Agencies: Scale Your Agency | ShiftoraAI"
 metaDescription: "Learn how agencies can use automation to serve more clients without hiring more staff. Complete guide to agency automation."
 excerpt: "Every agency hits the same wall: more clients means more staff. Here's how to break through."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-12"
 readTime: "10 min read"
 category: "Agencies"
@@ -93,7 +93,7 @@ Automation changes the equation. Deliver more without proportionally more staff.
 
 ### Scale Your Agency
 
-ScaletrailAI helps agencies automate:
+ShiftoraAI helps agencies automate:
 - Client operations
 - Project management
 - Sales processes

@@ -1,10 +1,10 @@
 ---
 title: "How to Automate Customer Service Without Losing the Personal Touch"
 slug: "automate-customer-service-without-losing-personal-touch"
-metaTitle: "Automate Customer Service Without Losing Personal Touch | ScaletrailAI"
+metaTitle: "Automate Customer Service Without Losing Personal Touch | ShiftoraAI"
 metaDescription: "Learn how to automate customer service while maintaining personalization. Real strategies for balancing AI efficiency with human connection."
 excerpt: "Customers hate talking to robots—but they also hate waiting. Here's how to give them the best of both worlds."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-14"
 readTime: "8 min read"
 category: "Customer Experience"
@@ -134,7 +134,7 @@ The best customer service isn't AI OR humans. It's AI AND humans working togethe
 
 ### Ready to Transform Your Customer Service?
 
-ScaletrailAI helps businesses implement customer service automation that actually delights customers. We'll help you:
+ShiftoraAI helps businesses implement customer service automation that actually delights customers. We'll help you:
 - Design AI that feels human
 - Set up smart escalation
 - Train on your specific customer base

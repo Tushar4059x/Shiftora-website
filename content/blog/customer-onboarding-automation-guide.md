@@ -1,10 +1,10 @@
 ---
 title: "Customer Onboarding Automation: Delight Customers at Scale"
 slug: "customer-onboarding-automation-guide"
-metaTitle: "Customer Onboarding Automation Guide | ScaletrailAI"
+metaTitle: "Customer Onboarding Automation Guide | ShiftoraAI"
 metaDescription: "Learn how to automate customer onboarding. Deliver consistent, delightful experiences without manual effort. Complete implementation guide."
 excerpt: "Customer onboarding sets the tone for the entire relationship. Here's how to make it perfect—every time, automatically."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-09"
 readTime: "10 min read"
 category: "Customer Success"
@@ -186,7 +186,7 @@ Onboarding should evolve into ongoing success.
 
 ### Create Perfect Onboarding
 
-ScaletrailAI helps businesses build automated onboarding:
+ShiftoraAI helps businesses build automated onboarding:
 - Journey mapping
 - Workflow design
 - Tool implementation

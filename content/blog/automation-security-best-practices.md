@@ -1,10 +1,10 @@
 ---
 title: "Automation Security: Keeping Your Automated Systems Safe"
 slug: "automation-security-best-practices"
-metaTitle: "Automation Security: Best Practices Guide | ScaletrailAI"
+metaTitle: "Automation Security: Best Practices Guide | ShiftoraAI"
 metaDescription: "Learn how to secure your automation systems. API security, access control, data protection, and compliance for automated business processes."
 excerpt: "Automation creates efficiency—but also potential vulnerabilities. Here's how to stay secure."
-author: "ScaletrailAI Team"
+author: "ShiftoraAI Team"
 publishDate: "2024-12-10"
 readTime: "9 min read"
 category: "Security"
@@ -116,7 +116,7 @@ Never assume trust. Verify everything:
 
 ### Build Secure Automations
 
-ScaletrailAI builds security-first automations:
+ShiftoraAI builds security-first automations:
 - Security architecture review
 - Secure implementation
 - Compliance alignment
